@@ -4,15 +4,21 @@ This is a script to collect the ZK Public IDs posted on the [GitHub Airdrop Issu
 
 The results are saved in [results.json](https://github.com/element-fi/zk-ids-collection/blob/main/results.json).
 
-**To run:**
+## Running
 
-Install dependencies:
+### 1. Create a new [personal access token (PAT)](https://github.com/settings/tokens/new?scopes=repo)
+
+### 2. Add the PAT to a `.env` file
+
+Create a copy of the `.env.sample` file and rename it `.env`. Then, paste your new PAT.
+
+### 3. Install dependencies
 
 ```
 npm i
 ```
 
-Then run:
+### 4. Run
 
 ```
 npm start
