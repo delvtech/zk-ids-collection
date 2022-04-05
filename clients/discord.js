@@ -11,7 +11,7 @@ const parseMsg = (msg) => {
   const [userId, publicId] = msg.embeds.at(0).description.split('\n')
   return {
     userId: userId.replace(/[^\d]/g, ''),
-    publicId,
+    publicId: publicId.match(/0x.{64}/)?.[0],
     submissionUrl: `https://discord.com/channels/${msg.guildId}/${msg.channelId}/${msg.id}`,
   }
 }

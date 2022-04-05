@@ -23,7 +23,7 @@ module.exports = {
         ...comments.map((comment) => ({
           user: comment.user.login,
           userId: comment.user.id,
-          publicId: comment.body,
+          publicId: comment.body.match(/0x.{64}/)?.[0],
           submissionUrl: comment.url,
         })),
       ]
