@@ -24,17 +24,15 @@ const commands = {
     )
   },
   discord: async () => {
-    const eligibleUsers = eligibleDiscordUsers.map((user) =>
-      user.userID.toString()
-    )
+    const eligibleUsers = eligibleDiscordUsers.map((user) => user.userID)
     const idSubmissions = await discord.getIdSubmissions()
-    const filtered = idSubmissions.filter((submission) =>
-      eligibleUsers.includes(submission.userId)
-    )
+    const filtered = idSubmissions.filter((submission) => {
+      return eligibleUsers.includes(submission.userId)
+    })
     const result = filtered.map((submission) => ({
       ...submission,
       user: eligibleDiscordUsers.find(
-        (user) => user.userID.toString() === submission.userId
+        (user) => user.userID === submission.userId
       ).user,
     }))
     fs.writeFileSync(discordFileName, JSON.stringify(result, null, 2), {

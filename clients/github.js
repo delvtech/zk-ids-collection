@@ -16,8 +16,10 @@ module.exports = {
   getIdSubmissions: async () => {
     let allComments = []
     for await (const { data: comments } of commentsIterator) {
+      const nextIds = comments.map((comment) => comment.user.id)
       allComments = [
-        ...allComments,
+        // override dupes
+        ...allComments.filter((comment) => !nextIds.includes(comment.userId)),
         ...comments.map((comment) => ({
           user: comment.user.login,
           userId: comment.user.id,

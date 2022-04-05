@@ -32,7 +32,13 @@ module.exports = {
           await channel.messages
             .fetch({ limit: 100, before: cursor })
             .then((messages) => {
-              allMessages = [...allMessages, ...messages.map(parseMsg)]
+              const nextMessages = messages.map(parseMsg)
+              const nextIds = nextMessages.map((msg) => msg.userId)
+              allMessages = [
+                // override dupes
+                ...allMessages.filter((msg) => !nextIds.includes(msg.userId)),
+                ...nextMessages,
+              ]
               cursor = messages.at(messages.size - 1)?.id
             })
         }
