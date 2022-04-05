@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js github discord",
+    "github": "node index.js github",
+    "discord": "node index.js discord"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "discord.js": "^13.6.0",
     "dotenv": "^16.0.0",
     "octokit": "^1.7.1"
   }

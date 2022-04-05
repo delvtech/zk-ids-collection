@@ -1,16 +1,20 @@
 # ZK IDs Collection
 
-This is a script to collect the ZK Public IDs posted on the [GitHub Airdrop Issue](https://github.com/element-fi/elf-council-frontend/issues/384). (*The script for collecting from Discord is in progress.*)
+This is a script to collect the ZK Public IDs posted on the [GitHub Airdrop issue](https://github.com/element-fi/elf-council-frontend/issues/384) and the [#public-ids Discord channel](https://discord.com/channels/754739461707006013/938531467716337714).
 
-The results are saved in [results.json](https://github.com/element-fi/zk-ids-collection/blob/main/results.json).
+The results are saved in the [results](https://github.com/element-fi/zk-ids-collection/blob/main/results/) folder.
 
 ## Running
 
-### 1. Create a new [personal access token (PAT)](https://github.com/settings/tokens/new?scopes=repo)
+### 1. Get Required Tokens
 
-### 2. Add the PAT to a `.env` file
+For GitHub, create a new [personal access token (PAT)](https://github.com/settings/tokens/new?scopes=repo).
 
-Create a copy of the `.env.sample` file and rename it `.env`. Then, paste your new PAT.
+For Discord, get the "DevOps Discord Bot Token" from LastPass.
+
+### 2. Add the tokens to a `.env` file
+
+Create a copy of the `.env.sample` file and rename it `.env`. Then, paste your new PAT and the bot token.
 
 ### 3. Install dependencies
 
@@ -20,6 +24,13 @@ npm i
 
 ### 4. Run
 
-```
+```sh
+# Collect from both GitHub and Discord
 npm start
+
+# Collect from GitHub
+npm run github
+
+# Collect from Discord
+npm run discord
 ```

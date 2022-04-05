@@ -1,40 +1,28 @@
-const fs = require('fs')
-const { Octokit } = require('octokit')
 require('dotenv').config()
+const fs = require('fs')
+const github = require('./clients/github')
+const discord = require('./clients/discord')
 
-const octokit = new Octokit({ auth: process.env.PERSONAL_ACCESS_TOKEN })
+const githubFileName = 'results/github.json'
+const discordFileName = 'results/discord.json'
 
-const commentsIterator = octokit.paginate.iterator(
-  octokit.rest.issues.listComments,
-  {
-    issue_number: 384,
-    owner: 'element-fi',
-    repo: 'elf-council-frontend',
-    per_page: 100,
-  }
-)
-
-const collect = async () => {
-  let allComments = []
-  for await (const { data: comments } of commentsIterator) {
-    allComments = [
-      ...allComments,
-      ...comments.map((comment) => ({
-        user: comment.user.login,
-        user_id: comment.user.id,
-        public_id: comment.body,
-        comment_url: comment.url,
-      })),
-    ]
-  }
-  await fs.promises.writeFile(
-    'results.json',
-    JSON.stringify(allComments, null, 2),
-    {
+const commands = {
+  github: async () => {
+    const ids = await github.getIds()
+    fs.writeFileSync(githubFileName, JSON.stringify(ids, null, 2), {
       encoding: 'utf8',
       flag: 'w',
-    }
-  )
+    })
+    console.log(`Saved ${ids.length} IDs from GitHub as ${githubFileName}.`)
+  },
+  discord: async () => {
+    const ids = await discord.getIds()
+    fs.writeFileSync(discordFileName, JSON.stringify(ids, null, 2), {
+      encoding: 'utf8',
+      flag: 'w',
+    })
+    console.log(`Saved ${ids.length} IDs from Discord as ${discordFileName}.`)
+  },
 }
 
-collect()
+process.argv.slice(2).map((command) => commands[command]())
