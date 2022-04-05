@@ -13,16 +13,16 @@ const commentsIterator = client.paginate.iterator(
 )
 
 module.exports = {
-  getIds: async () => {
+  getIdSubmissions: async () => {
     let allComments = []
     for await (const { data: comments } of commentsIterator) {
       allComments = [
         ...allComments,
         ...comments.map((comment) => ({
           user: comment.user.login,
-          user_id: comment.user.id,
-          public_id: comment.body,
-          comment_url: comment.url,
+          userId: comment.user.id,
+          publicId: comment.body,
+          submissionUrl: comment.url,
         })),
       ]
     }

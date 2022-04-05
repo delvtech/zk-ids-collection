@@ -8,16 +8,16 @@ const client = new Client({
 })
 
 const parseMsg = (msg) => {
-  const [user_id, public_id] = msg.embeds.at(0).description.split('\n')
+  const [userId, publicId] = msg.embeds.at(0).description.split('\n')
   return {
-    user_id,
-    public_id,
-    comment_url: `https://discord.com/channels/${msg.guildId}/${msg.channelId}/${msg.id}`,
+    userId: userId.replace(/[^\d]/g, ''),
+    publicId,
+    submissionUrl: `https://discord.com/channels/${msg.guildId}/${msg.channelId}/${msg.id}`,
   }
 }
 
 module.exports = {
-  getIds: () =>
+  getIdSubmissions: () =>
     new Promise((resolve) => {
       client.on('ready', async () => {
         let allMessages = []
