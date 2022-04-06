@@ -1,4 +1,28 @@
 {
+  "897006157556764682": [
+    {
+      "userId": "897006157556764682",
+      "publicId": "0x16e925b4fc4a69181c9546a05d19abe9d8b50fbc9f559fa2118bf67bb0fcad81",
+      "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/961291696807747624"
+    },
+    {
+      "userId": "897006157556764682",
+      "publicId": "0x29f63a4b6d98285c8de29a1e9c397de5b8fd2b058c0cdfd85efaf93b961d16b5",
+      "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/961287239449583677"
+    }
+  ],
+  "750337162733682718": [
+    {
+      "userId": "750337162733682718",
+      "publicId": "0x008f57600ad32eb03581c55030ded85b670ef7196bddf36d2f01fc0f7ed27197",
+      "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/961236889724129321"
+    },
+    {
+      "userId": "750337162733682718",
+      "publicId": "0x008f57600ad32eb03581c55030ded85b670ef7196bddf36d2f01fc0f7ed27197",
+      "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/961236769968373804"
+    }
+  ],
   "508955947348000768": [
     {
       "userId": "508955947348000768",
@@ -182,6 +206,18 @@
       "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/959765598861160448"
     }
   ],
+  "752419882976673812": [
+    {
+      "userId": "752419882976673812",
+      "publicId": "0x0bd16ad9dcd932d85e8c3d5842f390f86dde95f5baeccd56853651f22564fd14",
+      "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/961148715517739019"
+    },
+    {
+      "userId": "752419882976673812",
+      "publicId": "0x0bd16ad9dcd932d85e8c3d5842f390f86dde95f5baeccd56853651f22564fd14",
+      "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/959671219802734683"
+    }
+  ],
   "899003118585540639": [
     {
       "userId": "899003118585540639",
@@ -284,6 +320,18 @@
       "userId": "887968641407148032",
       "publicId": "0x1dd62e258c4410f24ff2efe24c927111f0b572377e122aaf3f4059188b25bd94",
       "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/959417943022780436"
+    }
+  ],
+  "767752041539174412": [
+    {
+      "userId": "767752041539174412",
+      "invalidSubmission": "bankloos.eth",
+      "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/961237826660360292"
+    },
+    {
+      "userId": "767752041539174412",
+      "publicId": "0x2d5af9e5cd14a16ebb01ea01c5ab34bb8f868d659a5cff18abea882d26ac16aa",
+      "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/959413080532590642"
     }
   ],
   "758854423941611531": [
@@ -489,6 +537,18 @@
       "userId": "822836772492804136",
       "publicId": "0x2966f556988dc1f3913c81ded66078fd9cc63b105551edc25760887f9d2e14be",
       "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/959335359978831922"
+    }
+  ],
+  "886153998917316618": [
+    {
+      "userId": "886153998917316618",
+      "publicId": "0x1c00f6c261c5d71fc6b447027788476ea0c267a1b8ff4fd89286d3c815e651f3",
+      "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/961283493139210270"
+    },
+    {
+      "userId": "886153998917316618",
+      "publicId": "0x0d18ca6387d461f56658bbe4294e676ef4223fe703e0b947407e4c414b9c53ff",
+      "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/959335473657032744"
     }
   ],
   "659596135580696586": [
@@ -1171,6 +1231,18 @@
       "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/959222517476769862"
     }
   ],
+  "613642542625456139": [
+    {
+      "userId": "613642542625456139",
+      "publicId": "0x0a55291f27aa3d9fb617a2a689d55aa0f0d71d69c413b1d3309eb20aae7440ed",
+      "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/961291298248208384"
+    },
+    {
+      "userId": "613642542625456139",
+      "publicId": "0x0c5bdba87723699cad7739e0c3e384242c1f638a4832615f89306095502c55f7",
+      "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/959222869022367744"
+    }
+  ],
   "361850248328642560": [
     {
       "userId": "361850248328642560",
@@ -1229,6 +1301,18 @@
       "userId": "294794011871543296",
       "publicId": "0x1fa58e7f6989ba38ef4f8de0cc09fb90dccf86bc10ca4f69cfc9428ff9ab4098",
       "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/959204611774898216"
+    }
+  ],
+  "743670999291134025": [
+    {
+      "userId": "743670999291134025",
+      "publicId": "0x3036add2a403d7c781a64c8159e333c7ad54936e4900a241b46888fb3cb421b4",
+      "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/961201293827923988"
+    },
+    {
+      "userId": "743670999291134025",
+      "publicId": "0x280b7565973b37105dfb975a95ffcc330af758bbca0748d979a183cbf4931157",
+      "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/959203775980122283"
     }
   ],
   "303876225867186179": [
