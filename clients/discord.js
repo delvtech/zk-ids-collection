@@ -1,4 +1,5 @@
 const { Client, Intents } = require('discord.js')
+const { getPublicId } = require('../util')
 
 // #public-ids channel
 const channelId = '938531467716337714'
@@ -9,9 +10,11 @@ const client = new Client({
 
 const parseMsg = (msg) => {
   const [userId, publicId] = msg.embeds.at(0).description.split('\n')
+  const validPublicId = getPublicId(publicId)
   return {
     userId: userId.replace(/[^\d]/g, ''),
-    publicId: publicId.match(/0x.{64}/)?.[0],
+    [validPublicId ? 'publicId' : 'invalidSubmission']:
+      validPublicId || publicId,
     submissionUrl: `https://discord.com/channels/${msg.guildId}/${msg.channelId}/${msg.id}`,
   }
 }
@@ -32,13 +35,7 @@ module.exports = {
           await channel.messages
             .fetch({ limit: 100, before: cursor })
             .then((messages) => {
-              const nextMessages = messages.map(parseMsg)
-              const nextIds = nextMessages.map((msg) => msg.userId)
-              allMessages = [
-                // override dupes
-                ...allMessages.filter((msg) => !nextIds.includes(msg.userId)),
-                ...nextMessages,
-              ]
+              allMessages = [...allMessages, ...messages.map(parseMsg)]
               cursor = messages.at(messages.size - 1)?.id
             })
         }

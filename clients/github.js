@@ -1,4 +1,5 @@
 const { Octokit } = require('octokit')
+const { getPublicId } = require('../util')
 
 const client = new Octokit({ auth: process.env.GITHUB_PERSONAL_ACCESS_TOKEN })
 
@@ -16,16 +17,18 @@ module.exports = {
   getIdSubmissions: async () => {
     let allComments = []
     for await (const { data: comments } of commentsIterator) {
-      const nextIds = comments.map((comment) => comment.user.id)
       allComments = [
-        // override dupes
-        ...allComments.filter((comment) => !nextIds.includes(comment.userId)),
-        ...comments.map((comment) => ({
-          user: comment.user.login,
-          userId: comment.user.id,
-          publicId: comment.body.match(/0x.{64}/)?.[0],
-          submissionUrl: comment.url,
-        })),
+        ...allComments,
+        ...comments.map((comment) => {
+          const validPublicId = getPublicId(comment.body)
+          return {
+            user: comment.user.login,
+            userId: comment.user.id,
+            [validPublicId ? 'publicId' : 'invalidSubmission']:
+              validPublicId || comment.body,
+            submissionUrl: comment.url,
+          }
+        }),
       ]
     }
     return allComments

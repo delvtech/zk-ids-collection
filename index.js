@@ -1,46 +1,76 @@
 require('dotenv').config()
-const fs = require('fs')
 const github = require('./clients/github')
 const discord = require('./clients/discord')
 const eligibleGithubUsers = require('./eligibility/github.json')
 const eligibleDiscordUsers = require('./eligibility/discord.json')
+const { writeJSONFile, dedupeByProperty } = require('./util')
 
-const githubFileName = 'results/github.json'
-const discordFileName = 'results/discord.json'
+const githubResultsPath = 'results/github.json'
+const discordResultsPath = 'results/discord.json'
 
 const commands = {
   github: async () => {
     const eligibleUsers = Object.keys(eligibleGithubUsers)
     const idSubmissions = await github.getIdSubmissions()
-    const result = idSubmissions.filter((submission) =>
-      eligibleUsers.includes(submission.user)
-    )
-    fs.writeFileSync(githubFileName, JSON.stringify(result, null, 2), {
-      encoding: 'utf8',
-      flag: 'w',
-    })
+    const [unique, dupes] = dedupeByProperty(idSubmissions, 'userId')
+    const invalidSubmissions = []
+    const ineligibleUsers = []
+    const result = unique
+      .filter((submission) => {
+        if (submission.invalidSubmission) {
+          invalidSubmissions.push(submission)
+          return false
+        }
+        return true
+      })
+      .filter((submission) => {
+        const isEligible = eligibleUsers.includes(submission.user)
+        if (!isEligible) {
+          ineligibleUsers.push(submission)
+        }
+        return isEligible
+      })
+    writeJSONFile('extra/github_invalid.json', invalidSubmissions)
+    writeJSONFile('extra/github_dupes.json', dupes)
+    writeJSONFile('extra/github_ineligible.json', ineligibleUsers)
+    writeJSONFile(githubResultsPath, result)
     console.log(
-      `Collected ${idSubmissions.length} IDs from GitHub and found ${result.length} eligible. Results saved as ${githubFileName}.`
+      `Collected ${idSubmissions.length} submissions from GitHub, filtered down to ${unique.length} unique users, and found ${result.length} eligible. Results saved as ${githubResultsPath}.`
     )
   },
   discord: async () => {
     const eligibleUsers = eligibleDiscordUsers.map((user) => user.userID)
     const idSubmissions = await discord.getIdSubmissions()
-    const filtered = idSubmissions.filter((submission) => {
-      return eligibleUsers.includes(submission.userId)
-    })
-    const result = filtered.map((submission) => ({
-      ...submission,
-      user: eligibleDiscordUsers.find(
-        (user) => user.userID === submission.userId
-      ).user,
-    }))
-    fs.writeFileSync(discordFileName, JSON.stringify(result, null, 2), {
-      encoding: 'utf8',
-      flag: 'w',
-    })
+    const [unique, dupes] = dedupeByProperty(idSubmissions, 'userId')
+    const invalidSubmissions = []
+    const ineligibleUsers = []
+    const result = unique
+      .filter((submission) => {
+        if (submission.invalidSubmission) {
+          invalidSubmissions.push(submission)
+          return false
+        }
+        return true
+      })
+      .filter((submission) => {
+        const isEligible = eligibleUsers.includes(submission.userId)
+        if (!isEligible) {
+          ineligibleUsers.push(submission)
+        }
+        return isEligible
+      })
+      .map((submission) => ({
+        user: eligibleDiscordUsers.find(
+          (user) => user.userID === submission.userId
+        ).user,
+        ...submission,
+      }))
+    writeJSONFile('extra/discord_invalid.json', invalidSubmissions)
+    writeJSONFile('extra/discord_dupes.json', dupes)
+    writeJSONFile('extra/discord_ineligible.json', ineligibleUsers)
+    writeJSONFile(discordResultsPath, result)
     console.log(
-      `Collected ${idSubmissions.length} IDs from Discord and found ${result.length} eligible. Results saved as ${discordFileName}.`
+      `Collected ${idSubmissions.length} submissions from Discord, filtered down to ${unique.length} unique users, and found ${result.length} eligible. Results saved as ${discordResultsPath}.`
     )
   },
 }
