@@ -1,8 +1,8 @@
 require('dotenv').config()
 const github = require('./clients/github')
 const discord = require('./clients/discord')
-const eligibleGithubUsers = require('./eligibility/github.json')
-const eligibleDiscordUsers = require('./eligibility/discord.json')
+const eligibleGithubUsers = require('./eligible-users/github.json')
+const eligibleDiscordUsers = require('./eligible-users/discord.json')
 const { writeJSONFile, dedupeByProperty } = require('./util')
 
 const githubResultsPath = 'results/github.json'
