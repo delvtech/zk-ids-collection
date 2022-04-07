@@ -21,8 +21,15 @@ module.exports = {
       flag: 'w',
     }),
   writeCSVFile: (path, data) =>
-    fs.writeFileSync(path, data.join('\n'), {
-      encoding: 'utf8',
-      flag: 'w',
-    }),
+    fs.writeFileSync(
+      path,
+      [
+        Object.keys(data[0]),
+        ...data.map((row) => `"${Object.values(row).join('","')}"`),
+      ].join('\n'),
+      {
+        encoding: 'utf8',
+        flag: 'w',
+      }
+    ),
 }

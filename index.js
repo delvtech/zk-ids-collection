@@ -31,21 +31,12 @@ const commands = {
         return isEligible
       })
     writeJSONFile('extra/github_invalid.json', invalidSubmissions)
-    writeCSVFile('extra/github_invalid.csv', [
-      Object.keys(invalidSubmissions[0]),
-      ...invalidSubmissions.map((sub) => Object.values(sub)),
-    ])
+    writeCSVFile('extra/github_invalid.csv', invalidSubmissions)
     writeJSONFile('extra/github_dupes.json', dupes)
     writeJSONFile('extra/github_ineligible.json', ineligibleUsers)
-    writeCSVFile('extra/github_ineligible.csv', [
-      Object.keys(ineligibleUsers[0]),
-      ...ineligibleUsers.map((user) => Object.values(user)),
-    ])
+    writeCSVFile('extra/github_ineligible.csv', ineligibleUsers)
     writeJSONFile(githubResultsPath, result)
-    writeCSVFile('extra/github_eligible.csv', [
-      Object.keys(result[0]),
-      ...result.map((user) => Object.values(user)),
-    ])
+    writeCSVFile('extra/github_eligible.csv', result)
     console.log(
       `Collected ${idSubmissions.length} submissions from GitHub, filtered down to ${unique.length} unique users, and found ${result.length} eligible. Results saved as ${githubResultsPath}.`
     )
@@ -78,21 +69,12 @@ const commands = {
         ...submission,
       }))
     writeJSONFile('extra/discord_invalid.json', invalidSubmissions)
-    writeCSVFile('extra/discord_invalid.csv', [
-      Object.keys(invalidSubmissions[0]),
-      ...invalidSubmissions.map((sub) => Object.values(sub)),
-    ])
+    writeCSVFile('extra/discord_invalid.csv', invalidSubmissions)
     writeJSONFile('extra/discord_dupes.json', dupes)
     writeJSONFile('extra/discord_ineligible.json', ineligibleUsers)
-    writeCSVFile('extra/discord_ineligible.csv', [
-      Object.keys(ineligibleUsers[0]),
-      ...ineligibleUsers.map((user) => Object.values(user)),
-    ])
+    writeCSVFile('extra/discord_ineligible.csv', ineligibleUsers)
     writeJSONFile(discordResultsPath, result)
-    writeCSVFile('extra/discord_eligible.csv', [
-      Object.keys(result[0]),
-      ...result.map((user) => Object.values(user)),
-    ])
+    writeCSVFile('extra/discord_eligible.csv', result)
     console.log(
       `Collected ${idSubmissions.length} submissions from Discord, filtered down to ${unique.length} unique users, and found ${result.length} eligible. Results saved as ${discordResultsPath}.`
     )
@@ -100,3 +82,4 @@ const commands = {
 }
 
 process.argv.slice(2).map((command) => commands[command]())
+console.log(new Date())

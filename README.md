@@ -4,7 +4,7 @@ This is a script to collect the ZK Public IDs posted on the [GitHub Airdrop issu
 
 The results are saved in the [results](https://github.com/element-fi/zk-ids-collection/blob/main/results/) folder.
 
-**Last run: 4/7/2022, 2022-04-07T18:00:05.416Z:**
+**Last run: 4/7/2022, 2022-04-07T18:36:06.255Z:**
 
 ```sh
 Collected 1173 submissions from Discord, filtered down to 1003 unique users, and found 211 eligible. Results saved as results/discord.json.
