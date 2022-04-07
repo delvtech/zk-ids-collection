@@ -20,4 +20,9 @@ module.exports = {
       encoding: 'utf8',
       flag: 'w',
     }),
+  writeCSVFile: (path, data) =>
+    fs.writeFileSync(path, data.join('\n'), {
+      encoding: 'utf8',
+      flag: 'w',
+    }),
 }

@@ -24,9 +24,10 @@ module.exports = {
           return {
             user: comment.user.login,
             userId: comment.user.id,
+            userUrl: comment.user.html_url,
             [validPublicId ? 'publicId' : 'invalidSubmission']:
               validPublicId || comment.body,
-            submissionUrl: comment.url,
+            submissionUrl: comment.html_url
           }
         }),
       ]
