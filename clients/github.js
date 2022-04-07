@@ -13,6 +13,40 @@ const commentsIterator = client.paginate.iterator(
   }
 )
 
+const getContributors = async (repos) => {
+  let contributors = {}
+  let missingRepos = {}
+  for (const dirtyPath of repos) {
+    const path = dirtyPath.toLowerCase()
+    const [owner, repo] = path.split('/')
+    if (repo) {
+      const result = await client.rest.repos.listContributors({ owner, repo })
+      if (result.data) {
+        contributors[path] = result.data.map((user) => user.login)
+      } else {
+        missingRepos[path] = { status: result.status }
+      }
+    } else {
+      const result = await client.rest.repos.listForOrg({ org: owner })
+      if (result.data) {
+        const { contributors: orgContributors, missingRepos: orgMissingRepos } =
+          await getContributors(result.data.map((repo) => repo.full_name))
+        contributors = {
+          ...contributors,
+          ...orgContributors,
+        }
+        missingRepos = {
+          ...missingRepos,
+          ...orgMissingRepos,
+        }
+      } else {
+        missingRepos[path] = { status: result.status }
+      }
+    }
+  }
+  return { contributors, missingRepos }
+}
+
 module.exports = {
   getIdSubmissions: async () => {
     let allComments = []
@@ -27,11 +61,12 @@ module.exports = {
             userUrl: comment.user.html_url,
             [validPublicId ? 'publicId' : 'invalidSubmission']:
               validPublicId || comment.body,
-            submissionUrl: comment.html_url
+            submissionUrl: comment.html_url,
           }
         }),
       ]
     }
     return allComments
   },
+  getContributors,
 }

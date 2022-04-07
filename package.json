@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js github discord",
     "github": "node index.js github",
-    "discord": "node index.js discord"
+    "discord": "node index.js discord",
+    "github-contributors": "node index.js githubContributors"
   },
   "keywords": [],
   "author": "",
