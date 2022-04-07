@@ -31,9 +31,9 @@ const commands = {
         return isEligible
       })
     const idSubmissionUsers = unique.map((user) => user.user)
-    const missingEligible = eligibleUsers.filter(
-      (user) => !idSubmissionUsers.includes(user)
-    )
+    const missingEligible = eligibleUsers
+      .filter((user) => !idSubmissionUsers.includes(user))
+      .map((user) => ({ user }))
     writeCSVFile('extra/csv/github_invalid.csv', invalidSubmissions)
     writeCSVFile('extra/csv/github_ineligible.csv', ineligibleUsers)
     writeCSVFile('extra/csv/github_eligible_missing.csv', missingEligible)
@@ -77,7 +77,10 @@ const commands = {
     const idSubmissionUsers = unique.map((user) => user.userId)
     const missingEligible = eligibleUsers
       .filter((user) => !idSubmissionUsers.includes(user))
-      .map((id) => eligibleDiscordUsers.find((user) => user.userID === id).user)
+      .map((userId) => ({
+        userId,
+        user: eligibleDiscordUsers.find((user) => user.userID === userId).user,
+      }))
     writeCSVFile('extra/csv/discord_invalid.csv', invalidSubmissions)
     writeCSVFile('extra/csv/discord_ineligible.csv', ineligibleUsers)
     writeCSVFile('extra/csv/discord_eligible_missing.csv', missingEligible)
