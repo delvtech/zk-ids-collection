@@ -43,9 +43,10 @@ const commands = {
     writeJSONFile('extra/json/github_invalid.json', invalidSubmissions)
     writeJSONFile('extra/json/github_ineligible.json', ineligibleUsers)
     writeJSONFile('extra/json/github_eligible_missing.json', missingEligible)
-    writeJSONFile(githubResultsPath, unique)
+    writeJSONFile('results/json/github.json', unique)
+    writeCSVFile('results/csv/github.csv', unique)
     console.log(
-      `Collected ${idSubmissions.length} submissions from GitHub, filtered down to ${unique.length} unique users, and found ${eligible.length} eligible. Unique submissions saved as ${githubResultsPath}.`
+      `Collected ${idSubmissions.length} submissions from GitHub, filtered down to ${unique.length} unique users, and found ${eligible.length} eligible. Unique submissions in the results directory.`
     )
   },
   discord: async () => {
@@ -88,9 +89,10 @@ const commands = {
     writeJSONFile('extra/json/discord_invalid.json', invalidSubmissions)
     writeJSONFile('extra/json/discord_ineligible.json', ineligibleUsers)
     writeJSONFile('extra/json/discord_eligible_missing.json', missingEligible)
-    writeJSONFile(discordResultsPath, uniqueWithNames)
+    writeJSONFile('results/json/discord.json', uniqueWithNames)
+    writeCSVFile('results/csv/discord.csv', uniqueWithNames)
     console.log(
-      `Collected ${idSubmissions.length} submissions from Discord, filtered down to ${uniqueWithNames.length} unique users, and found ${eligible.length} eligible. Unique submissions saved as ${discordResultsPath}.`
+      `Collected ${idSubmissions.length} submissions from Discord, filtered down to ${uniqueWithNames.length} unique users, and found ${eligible.length} eligible. Unique submissions saved in the results directory.`
     )
   },
   githubContributors: async () => {
