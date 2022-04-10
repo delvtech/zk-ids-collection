@@ -3,16 +3,6 @@ const { getPublicId } = require('../util')
 
 const client = new Octokit({ auth: process.env.GITHUB_PERSONAL_ACCESS_TOKEN })
 
-const commentsIterator = client.paginate.iterator(
-  client.rest.issues.listComments,
-  {
-    issue_number: 724,
-    owner: 'element-fi',
-    repo: 'elf-council-frontend',
-    per_page: 100,
-  }
-)
-
 const getContributors = async (repos) => {
   let contributors = {}
   let missingRepos = {}
@@ -48,8 +38,17 @@ const getContributors = async (repos) => {
 }
 
 module.exports = {
-  getIdSubmissions: async () => {
+  getIdSubmissions: async (issueId) => {
     let allComments = []
+    const commentsIterator = client.paginate.iterator(
+      client.rest.issues.listComments,
+      {
+        issue_number: issueId,
+        owner: 'element-fi',
+        repo: 'elf-council-frontend',
+        per_page: 100,
+      }
+    )
     for await (const { data: comments } of commentsIterator) {
       allComments = [
         ...allComments,

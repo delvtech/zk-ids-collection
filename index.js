@@ -6,13 +6,13 @@ const githubRepoWL = require('./whitelist/github_repos.json')
 const discordWL = require('./whitelist/discord.json')
 const { writeJSONFile, dedupeByProperty, writeCSVFile } = require('./util')
 
-const githubResultsPath = 'results/github.json'
-const discordResultsPath = 'results/discord.json'
+// issues: 384, 724
+const githubIssueId = 724;
 
 const commands = {
   github: async () => {
     const whitelist = Object.keys(githubWL)
-    const idSubmissions = await github.getIdSubmissions()
+    const idSubmissions = await github.getIdSubmissions(githubIssueId)
     const [unique, dupes] = dedupeByProperty(idSubmissions, 'userId')
     const invalidSubmissions = []
     const ineligibleUsers = []
@@ -35,18 +35,18 @@ const commands = {
     const missingEligible = whitelist
       .filter((user) => !idSubmissionUsers.includes(user))
       .map((user) => ({ user }))
-    writeCSVFile('extra/csv/github_invalid.csv', invalidSubmissions)
-    writeCSVFile('extra/csv/github_eligible_missing.csv', missingEligible)
-    writeCSVFile('extra/csv/github_eligible.csv', eligible)
-    writeJSONFile('extra/json/github_dupes.json', dupes)
-    writeJSONFile('extra/json/github_invalid.json', invalidSubmissions)
+    writeCSVFile(`extra/csv/github_invalid_issue-${githubIssueId}.csv`, invalidSubmissions)
+    writeCSVFile(`extra/csv/github_eligible_missing_issue-${githubIssueId}.csv`, missingEligible)
+    writeCSVFile(`extra/csv/github_eligible_issue-${githubIssueId}.csv`, eligible)
+    writeJSONFile(`extra/json/github_dupes_issue-${githubIssueId}.json`, dupes)
+    writeJSONFile(`extra/json/github_invalid_issue-${githubIssueId}.json`, invalidSubmissions)
     writeJSONFile(
-      `extra/json/ineligible/github_ineligible_${Date.now()}.json`,
+      `extra/json/ineligible/github_ineligible_issue-${githubIssueId}_${Date.now()}.json`,
       ineligibleUsers
     )
-    writeJSONFile('extra/json/github_eligible_missing.json', missingEligible)
-    writeJSONFile('results/json/github.json', unique)
-    writeCSVFile('results/csv/github.csv', unique)
+    writeJSONFile(`extra/json/github_eligible_missing_issue-${githubIssueId}.json`, missingEligible)
+    writeJSONFile(`results/json/github_issue-${githubIssueId}.json`, unique)
+    writeCSVFile(`results/csv/github_issue-${githubIssueId}.csv`, unique)
     github.clearIneligibleSubmissions(ineligibleUsers)
     console.log(
       `Collected ${idSubmissions.length} submissions from GitHub, filtered down to ${unique.length} unique users, and found ${eligible.length} eligible. Unique submissions in the results directory.`
