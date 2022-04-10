@@ -56,7 +56,7 @@ const commands = {
   autoGithub: async () => {
     setInterval(() => {
       githubCommand();
-    }, 120000)
+    }, 300000)
   },
   github: githubCommand,
   discord: async () => {
