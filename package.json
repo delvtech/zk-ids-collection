@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node index.js github discord",
     "github": "node index.js github",
+    "auto-github": "node index.js autoGithub",
     "discord": "node index.js discord",
     "github-contributors": "node index.js githubContributors"
   },
