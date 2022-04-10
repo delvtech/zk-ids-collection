@@ -38,7 +38,7 @@ npm start
 # Collect from GitHub (this will also delete ineligible submissions to avoid reaching the 2.5k comment max)
 npm run github
 
-# Collect every 5 mins
+# Collect every 10 mins
 npm run auto-github
 
 # Collect from Discord

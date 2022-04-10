@@ -1,0 +1,1258 @@
+[
+  {
+    "user": "memoool",
+    "userId": 15316431,
+    "userUrl": "https://github.com/memoool",
+    "publicId": "0x2ec4ffd195789da0f1ecb5d7cfb52fb65eb09484faed2c531a263564c59e7007",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212852",
+    "commentId": 1094212852
+  },
+  {
+    "user": "behradkhodayar",
+    "userId": 16176436,
+    "userUrl": "https://github.com/behradkhodayar",
+    "publicId": "0x1331e70c45a5e23bcab322d09c5cc9a57e8f725badf3bfd81eb2bb448c7e99aa",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213913",
+    "commentId": 1094213913
+  },
+  {
+    "user": "lario0913",
+    "userId": 26335055,
+    "userUrl": "https://github.com/lario0913",
+    "publicId": "0x1bed0f645540d649c754ba635b4967781f7b469bc923c8cfc73966d9ce025318",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094218707",
+    "commentId": 1094218707
+  },
+  {
+    "user": "abdhilabs",
+    "userId": 28172248,
+    "userUrl": "https://github.com/abdhilabs",
+    "publicId": "0x2b241ebe1c85549aeb66ce3aa392a451fdaf1d274e39e5e848ae01ba69672fb5",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213148",
+    "commentId": 1094213148
+  },
+  {
+    "user": "sahawaee",
+    "userId": 29895330,
+    "userUrl": "https://github.com/sahawaee",
+    "publicId": "0x1036688f73535e3b64404084a24a594cfacdc0b27718c262a67e0a21cec7e589",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094211864",
+    "commentId": 1094211864
+  },
+  {
+    "user": "nsibacos",
+    "userId": 32783073,
+    "userUrl": "https://github.com/nsibacos",
+    "publicId": "0x2c9933aab4fae8706ea41fb4e2d5bfc95745deff728ba932c4cbd035026ce34d",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094218512",
+    "commentId": 1094218512
+  },
+  {
+    "user": "d0nsly",
+    "userId": 33090087,
+    "userUrl": "https://github.com/d0nsly",
+    "publicId": "0x2673aeef4912a53a872d957b7016892c3d5d7db5b195b8f6f9a6b4dd2fd6f8db",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094216325",
+    "commentId": 1094216325
+  },
+  {
+    "user": "dayjee111",
+    "userId": 33166566,
+    "userUrl": "https://github.com/dayjee111",
+    "publicId": "0x1c9b9e3c10dc753aa372ab097b951fc5d71a0ccaf75ff6a9fa7e4c4be46b5c74",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214079",
+    "commentId": 1094214079
+  },
+  {
+    "user": "alphailluminatus",
+    "userId": 33203706,
+    "userUrl": "https://github.com/alphailluminatus",
+    "publicId": "0x00afa15c23f2cb582d21605592735984743176ff2fb268c611191386006c04df",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094215934",
+    "commentId": 1094215934
+  },
+  {
+    "user": "ikuytampan",
+    "userId": 33461332,
+    "userUrl": "https://github.com/ikuytampan",
+    "publicId": "0x1183af149694d674e9b2ade854cda98412d2c11debb5bd0980905b613eabec4e",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214620",
+    "commentId": 1094214620
+  },
+  {
+    "user": "omosalamy",
+    "userId": 35632835,
+    "userUrl": "https://github.com/omosalamy",
+    "publicId": "0x1e954dd70c18734925ef0f918bc41591da2c7556881d8a64d251c28eb4540d97",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212963",
+    "commentId": 1094212963
+  },
+  {
+    "user": "samckg",
+    "userId": 35640945,
+    "userUrl": "https://github.com/samckg",
+    "publicId": "0x11b4fe57f9dd8f315887248c93fafe9e1f36147499905882f3622c1652c55d55",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094217716",
+    "commentId": 1094217716
+  },
+  {
+    "user": "mcfemi6",
+    "userId": 36316433,
+    "userUrl": "https://github.com/mcfemi6",
+    "publicId": "0x1e0ef1bf806fd4e5fac7111cad1a3c6c109f65e2a55623059af9d4e3f738d617",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094217865",
+    "commentId": 1094217865
+  },
+  {
+    "user": "Crusoelee",
+    "userId": 36412604,
+    "userUrl": "https://github.com/Crusoelee",
+    "publicId": "0x24d1158483cc0095a43a3839b4e723099a480119922fbdae2cb5d3c484e34266",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094218314",
+    "commentId": 1094218314
+  },
+  {
+    "user": "Ayscoopy",
+    "userId": 36541366,
+    "userUrl": "https://github.com/Ayscoopy",
+    "publicId": "0x25900248c7a3c8f6fb3dd61fc20b62ad28bb17a4f1b7dad7ecf8ec048724ea95",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213143",
+    "commentId": 1094213143
+  },
+  {
+    "user": "heasykhiel",
+    "userId": 36544111,
+    "userUrl": "https://github.com/heasykhiel",
+    "publicId": "0x243bc2aa1157c9cf27f68f83f1095faff3a8b1816cc14010a22b69d31b03b738",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214654",
+    "commentId": 1094214654
+  },
+  {
+    "user": "phareedah",
+    "userId": 38962970,
+    "userUrl": "https://github.com/phareedah",
+    "publicId": "0x03c8d56bf95928a422503c632822d6f60ebe8923eb9727e73505bd50c627eb20",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212356",
+    "commentId": 1094212356
+  },
+  {
+    "user": "Justice442",
+    "userId": 39138666,
+    "userUrl": "https://github.com/Justice442",
+    "publicId": "0x03f918b27b25e4455c37f9c44753a8f6127fe359fbccf9e3d8668c475c23fe51",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214066",
+    "commentId": 1094214066
+  },
+  {
+    "user": "Milanseedorf",
+    "userId": 39516268,
+    "userUrl": "https://github.com/Milanseedorf",
+    "publicId": "0x0f1a5adc14e201b54f5dc07e2aecc27a0d21b9ce74bc3b7a4a6f17f746305d95",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213964",
+    "commentId": 1094213964
+  },
+  {
+    "user": "Marcuzt",
+    "userId": 39700642,
+    "userUrl": "https://github.com/Marcuzt",
+    "publicId": "0xbb0b37d6bf457ff3c501464835e3f56a71fbc01de8622a77af83354a6f8df195",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214198",
+    "commentId": 1094214198
+  },
+  {
+    "user": "backtrack12345678",
+    "userId": 41798969,
+    "userUrl": "https://github.com/backtrack12345678",
+    "publicId": "0x0265aed703300d337c19edb7b9914345af87b7651d2ef4f906c6084a78f66768",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094216362",
+    "commentId": 1094216362
+  },
+  {
+    "user": "gwumex",
+    "userId": 42099116,
+    "userUrl": "https://github.com/gwumex",
+    "publicId": "0x0339431c2bd5511f627128791463013ea8adae6e152ee601ead123a36083a503",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214432",
+    "commentId": 1094214432
+  },
+  {
+    "user": "mulajha",
+    "userId": 52702237,
+    "userUrl": "https://github.com/mulajha",
+    "publicId": "0x1b7898587c78b9915ea8fce6a28a5ec25234838ad9830578ab82ffc708a5bf05",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094217305",
+    "commentId": 1094217305
+  },
+  {
+    "user": "amarlovetips",
+    "userId": 52833285,
+    "userUrl": "https://github.com/amarlovetips",
+    "publicId": "0x06d2e39beb603cdbb4caed79ee925d4f532c090a612bea3265d35176911b3119",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214660",
+    "commentId": 1094214660
+  },
+  {
+    "user": "ERICKADIPRASETYO",
+    "userId": 53224957,
+    "userUrl": "https://github.com/ERICKADIPRASETYO",
+    "publicId": "0x1f2a4796af684b5f1bd23b453982a69e2c006340c375be296360030dd3e4805e",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094216193",
+    "commentId": 1094216193
+  },
+  {
+    "user": "admob22",
+    "userId": 57840843,
+    "userUrl": "https://github.com/admob22",
+    "publicId": "0x1fe2092014929ffb044f5a770cd1f040c2be973efafe95bdc4ef4d98425c9178",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212122",
+    "commentId": 1094212122
+  },
+  {
+    "user": "Ayomide25-ops",
+    "userId": 57856853,
+    "userUrl": "https://github.com/Ayomide25-ops",
+    "publicId": "0x1c49c4744ba00b0e72f6da4b3674b968f2cf403f6481356b6c5828e0dc742df4",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094218120",
+    "commentId": 1094218120
+  },
+  {
+    "user": "Kanmmy",
+    "userId": 58221140,
+    "userUrl": "https://github.com/Kanmmy",
+    "publicId": "0x096754391d77d1bc6d11fe483c1d4849d58f0c556bcbb63ce03c85de50b89377",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094216683",
+    "commentId": 1094216683
+  },
+  {
+    "user": "maavanthuong",
+    "userId": 58318481,
+    "userUrl": "https://github.com/maavanthuong",
+    "publicId": "0x199253f115fcac313d4ea6526cfb92b2f9b0f172dbab75ad2b1e024859d98857",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212355",
+    "commentId": 1094212355
+  },
+  {
+    "user": "nguyenvandevay",
+    "userId": 58318850,
+    "userUrl": "https://github.com/nguyenvandevay",
+    "publicId": "0x138936a511a78a5e3235f007aa34dd26e2fd13393af2a3b34de7695314415ab4",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213180",
+    "commentId": 1094213180
+  },
+  {
+    "user": "hinhvansu",
+    "userId": 58319075,
+    "userUrl": "https://github.com/hinhvansu",
+    "publicId": "0x04f14e49d00bfbad5c3c94ed3248b763e028613fb5eca2601ce08d4ce823c1df",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214006",
+    "commentId": 1094214006
+  },
+  {
+    "user": "thuutientrinh",
+    "userId": 58319338,
+    "userUrl": "https://github.com/thuutientrinh",
+    "publicId": "0x05decbaf459f54078945c686a19f74f4d53dbd410e976641d35cc1c00c8333c5",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214619",
+    "commentId": 1094214619
+  },
+  {
+    "user": "lethiichuot",
+    "userId": 58323016,
+    "userUrl": "https://github.com/lethiichuot",
+    "publicId": "0x138ea99a87cc3767b8817f5689590e227e61532a2dad43c40568a8f139110635",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094216492",
+    "commentId": 1094216492
+  },
+  {
+    "user": "cholatuuc",
+    "userId": 58323332,
+    "userUrl": "https://github.com/cholatuuc",
+    "publicId": "0x1d3ddaaa5e6f10f113cccbc74ec211984903eadea11e016dee1ae2d02b710a46",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094217499",
+    "commentId": 1094217499
+  },
+  {
+    "user": "dayromadhon",
+    "userId": 59789554,
+    "userUrl": "https://github.com/dayromadhon",
+    "publicId": "0x00ba58a76287976ddb8965aea29c44fc4fba22519ae09d039f8e6d20032e40ca",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213741",
+    "commentId": 1094213741
+  },
+  {
+    "user": "husseinnn",
+    "userId": 60576987,
+    "userUrl": "https://github.com/husseinnn",
+    "publicId": "0x300f69c19d6a979c5733ddd430b7514e4031dab34d0183f54260a89916d3e3b3",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094217999",
+    "commentId": 1094217999
+  },
+  {
+    "user": "Mrjoker01",
+    "userId": 62656339,
+    "userUrl": "https://github.com/Mrjoker01",
+    "publicId": "0x0d472a90dd84a5040d33f2902915f884367e1513c17b54c643eb33f5c2f96712",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214496",
+    "commentId": 1094214496
+  },
+  {
+    "user": "dannywhitz",
+    "userId": 64426362,
+    "userUrl": "https://github.com/dannywhitz",
+    "publicId": "0x00e12d4c629dd1811cffb3f2d07b28afeefd1e2a97fad8bf8b909b12df963519",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213054",
+    "commentId": 1094213054
+  },
+  {
+    "user": "hollyra",
+    "userId": 67126132,
+    "userUrl": "https://github.com/hollyra",
+    "publicId": "0x2c4d836e474bcdff92201f11c25f91300bf24e2cfb1ccdb609ff284dee90fbcd",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094217580",
+    "commentId": 1094217580
+  },
+  {
+    "user": "Fbayomide",
+    "userId": 67663655,
+    "userUrl": "https://github.com/Fbayomide",
+    "publicId": "0x098f7f76b683f15abe0580906566d5b0be49ad92b6694d124ed30c9806cf7a16",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094218094",
+    "commentId": 1094218094
+  },
+  {
+    "user": "nastymontana",
+    "userId": 69006994,
+    "userUrl": "https://github.com/nastymontana",
+    "publicId": "0x21e418a72f34ce121b730f0cf62d74199718ebaac5dfc59e7d7b341581e64b8c",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213503",
+    "commentId": 1094213503
+  },
+  {
+    "user": "kongtaoxing",
+    "userId": 69096526,
+    "userUrl": "https://github.com/kongtaoxing",
+    "publicId": "0x07797f1f523538d8d6eda48ac6db53ef63e6c1a45da704a7d2012cd673ec3ea6",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094211903",
+    "commentId": 1094211903
+  },
+  {
+    "user": "soojy",
+    "userId": 70171585,
+    "userUrl": "https://github.com/soojy",
+    "publicId": "0x030baa7a1b2be49cc36e93b05aac9935f27bba84de9504b26a5472be7872f812",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212513",
+    "commentId": 1094212513
+  },
+  {
+    "user": "Kismet09",
+    "userId": 70298565,
+    "userUrl": "https://github.com/Kismet09",
+    "publicId": "0x143f2b2ebdc9069e88fd12825dc14d2fedd48f9bc8c0b8581f9ac99a710dc06f",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094216437",
+    "commentId": 1094216437
+  },
+  {
+    "user": "asfarkurniawan",
+    "userId": 71323547,
+    "userUrl": "https://github.com/asfarkurniawan",
+    "publicId": "0x01d49671d4d37da166dfb76ebcf63a7cec10169c8a4a6452baedca4367740377",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094215484",
+    "commentId": 1094215484
+  },
+  {
+    "user": "oricon69",
+    "userId": 72658571,
+    "userUrl": "https://github.com/oricon69",
+    "publicId": "0x228f39529dc498b46b15cd5a1f6388bbeb4976fe37399420a1b59b3c5e99782b",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213347",
+    "commentId": 1094213347
+  },
+  {
+    "user": "tafataiwo",
+    "userId": 72789023,
+    "userUrl": "https://github.com/tafataiwo",
+    "publicId": "0x0f59eba1853e4f09a964388934018c64bbf55a1273aea9b2aa760183df49b25a",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212725",
+    "commentId": 1094212725
+  },
+  {
+    "user": "venkatsunny",
+    "userId": 73867761,
+    "userUrl": "https://github.com/venkatsunny",
+    "publicId": "0x2792931bffdd1416be70f7a7553eb62b44620f934fac734c2770f0e02af6f0cf",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212226",
+    "commentId": 1094212226
+  },
+  {
+    "user": "thanhtikezaw007",
+    "userId": 74714779,
+    "userUrl": "https://github.com/thanhtikezaw007",
+    "publicId": "0x2611bf1407bd874a5982ce4f4307ce8bb84fc0eef56486e5367dd3de41a5f764",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214691",
+    "commentId": 1094214691
+  },
+  {
+    "user": "Abe2503",
+    "userId": 74728281,
+    "userUrl": "https://github.com/Abe2503",
+    "publicId": "0x1e78b62530c48fa130e7b338dfe716498b50509daddf5f7be94bd1e08c9d7da8",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214680",
+    "commentId": 1094214680
+  },
+  {
+    "user": "smartecio",
+    "userId": 74747786,
+    "userUrl": "https://github.com/smartecio",
+    "publicId": "0x06ec0d3be43327d38fb3da6470888a11ef64f4f0a127ec63bf050431a29d7ebe",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212951",
+    "commentId": 1094212951
+  },
+  {
+    "user": "taiwofelix35",
+    "userId": 74764413,
+    "userUrl": "https://github.com/taiwofelix35",
+    "publicId": "0x0c748c99223bd1bc0a395b2b066280e5c8b73eae3032f3fdb3e8ffc2729a5daa",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094211915",
+    "commentId": 1094211915
+  },
+  {
+    "user": "Ikefrancis",
+    "userId": 76846099,
+    "userUrl": "https://github.com/Ikefrancis",
+    "publicId": "0x285e219b883dee1460f40fc8bdf3eb08c95df874d6021fb9905c3f15538a2dff",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094216276",
+    "commentId": 1094216276
+  },
+  {
+    "user": "YamenNoma",
+    "userId": 77804265,
+    "userUrl": "https://github.com/YamenNoma",
+    "publicId": "0x2007a10999be19401235c0f0afeb9c16e600c980f28a60a4b8e8cd4bc05377d2",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213352",
+    "commentId": 1094213352
+  },
+  {
+    "user": "demigod124",
+    "userId": 78386397,
+    "userUrl": "https://github.com/demigod124",
+    "publicId": "0x18039dd997119850744c7e2d24b66788ded3626cdae781019625bcb763c2f76e",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214036",
+    "commentId": 1094214036
+  },
+  {
+    "user": "hongwei047",
+    "userId": 78640777,
+    "userUrl": "https://github.com/hongwei047",
+    "publicId": "0x0f1537dad8c621294bfcdc0914124760dc1f4f8bcd61eff39377db1e384e9b04",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213994",
+    "commentId": 1094213994
+  },
+  {
+    "user": "Slewenk87",
+    "userId": 78930862,
+    "userUrl": "https://github.com/Slewenk87",
+    "publicId": "0x11480816e5ccb88d0cab2252cf488ac37d81b70197f4054b434fd8a631a3c378",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213721",
+    "commentId": 1094213721
+  },
+  {
+    "user": "anime-thor",
+    "userId": 79825518,
+    "userUrl": "https://github.com/anime-thor",
+    "publicId": "0x19123e322eb50a5e3de29772520f125e464a9302e68957404203f256ddef5890",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094217373",
+    "commentId": 1094217373
+  },
+  {
+    "user": "michealgeee",
+    "userId": 80068036,
+    "userUrl": "https://github.com/michealgeee",
+    "publicId": "0x23788d3db6df3fd396e6e0ea5fa993a3e960f4ed316938847cc679c7727cf674",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213729",
+    "commentId": 1094213729
+  },
+  {
+    "user": "O2lord",
+    "userId": 80071649,
+    "userUrl": "https://github.com/O2lord",
+    "publicId": "0x1c9bfa90cff4dd95ce5a4ba2efba567793ed382c78d92fbfae6ae706ba9f967b",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214563",
+    "commentId": 1094214563
+  },
+  {
+    "user": "sitimaryam20",
+    "userId": 80084614,
+    "userUrl": "https://github.com/sitimaryam20",
+    "publicId": "0x25c64944413d6581cfb1051ee866200f202ddb7a4fd22400ffd3a26bba5ab1a0",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094218245",
+    "commentId": 1094218245
+  },
+  {
+    "user": "Hyper479",
+    "userId": 80588509,
+    "userUrl": "https://github.com/Hyper479",
+    "publicId": "0x2e263c605f31db9739e27763e41181f58940f784f1796a3c0f68f27e1af0ea27",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212569",
+    "commentId": 1094212569
+  },
+  {
+    "user": "bee2elm",
+    "userId": 80783346,
+    "userUrl": "https://github.com/bee2elm",
+    "publicId": "0x1a391a6b1d0a82a5f06dc01294d93953508e9e080b36e487bcf6ff931a706019",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213931",
+    "commentId": 1094213931
+  },
+  {
+    "user": "Idahosa1",
+    "userId": 81877137,
+    "userUrl": "https://github.com/Idahosa1",
+    "publicId": "0x18523ac890030affb63ee1f55796e951b3b4bb49d798cb734db9d0495b49afda",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214197",
+    "commentId": 1094214197
+  },
+  {
+    "user": "PlatoRe",
+    "userId": 82060542,
+    "userUrl": "https://github.com/PlatoRe",
+    "publicId": "0x12a9530a0ed8bb15492a232710bc4afc8d821ab56a8ea6e2e87d612c5f9c63e3",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214395",
+    "commentId": 1094214395
+  },
+  {
+    "user": "adenugbaoreofe",
+    "userId": 82076508,
+    "userUrl": "https://github.com/adenugbaoreofe",
+    "publicId": "0x0b7133334cdfa967e9fe3fe3e4ab831f22d979696f41086ed229108909326ab6",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212583",
+    "commentId": 1094212583
+  },
+  {
+    "user": "NanangAv",
+    "userId": 82089991,
+    "userUrl": "https://github.com/NanangAv",
+    "publicId": "0x034eb633fbbf56bca9c67578e691ed05596ab72d6af15634180ca4cab52af0f5",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094211897",
+    "commentId": 1094211897
+  },
+  {
+    "user": "mohdshaanu",
+    "userId": 82404552,
+    "userUrl": "https://github.com/mohdshaanu",
+    "publicId": "0x15d086350354ee6af4864c31026603e1b30b4aea6e77473de08622cc76b9684b",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214713",
+    "commentId": 1094214713
+  },
+  {
+    "user": "Aguspujianto0908",
+    "userId": 82571245,
+    "userUrl": "https://github.com/Aguspujianto0908",
+    "publicId": "0x0ea6d9a6293805a0e396c17048d0ad66d3dd45db29b73273525747180c829788",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214239",
+    "commentId": 1094214239
+  },
+  {
+    "user": "subhankarguchait",
+    "userId": 82614681,
+    "userUrl": "https://github.com/subhankarguchait",
+    "publicId": "0x2a3823c8de06d13b0c9ca7c82ddb8c26556046aacf4a1f5a777f46b9939f951a",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212109",
+    "commentId": 1094212109
+  },
+  {
+    "user": "asikgadget",
+    "userId": 82805682,
+    "userUrl": "https://github.com/asikgadget",
+    "publicId": "0x1b5eba3037c1f751c2f6bdb27946cb6e3e30c0eabda5de72fa6503c6938ae846",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213432",
+    "commentId": 1094213432
+  },
+  {
+    "user": "Officialsarafa",
+    "userId": 83356411,
+    "userUrl": "https://github.com/Officialsarafa",
+    "publicId": "0x1e533049476bef32867c2f1890f13766d5af575e1822b7d98a8e748d9ac15bdc",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212912",
+    "commentId": 1094212912
+  },
+  {
+    "user": "Jancy08",
+    "userId": 84246892,
+    "userUrl": "https://github.com/Jancy08",
+    "publicId": "0x2a62539be8d5247c07578a8e94f8b6ec05c1893a3d57d450dba522a3ce92979e",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213031",
+    "commentId": 1094213031
+  },
+  {
+    "user": "jonathanbscx",
+    "userId": 84799921,
+    "userUrl": "https://github.com/jonathanbscx",
+    "publicId": "0x156b3b6800301f07f928e5fb9708b1bde8674821f50dd84be549db1044a5601d",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094218486",
+    "commentId": 1094218486
+  },
+  {
+    "user": "n2jd",
+    "userId": 84999610,
+    "userUrl": "https://github.com/n2jd",
+    "publicId": "0x21528ae368d1a884529e29349dbb8debe36fbe7729b535d5b1f05ad165c80fba",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094217722",
+    "commentId": 1094217722
+  },
+  {
+    "user": "794517899",
+    "userId": 85056629,
+    "userUrl": "https://github.com/794517899",
+    "publicId": "0x3010f0ee0d07738fdec4f3a02a00e07e68ea8b2857ababaaff3a6397841ede4c",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214562",
+    "commentId": 1094214562
+  },
+  {
+    "user": "GameMaster0075",
+    "userId": 85437770,
+    "userUrl": "https://github.com/GameMaster0075",
+    "publicId": "0x0d449b801f227763e44cf5e6417abb3d7b8b13f6ff75703e657412eaac151acb",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214482",
+    "commentId": 1094214482
+  },
+  {
+    "user": "dammyt29-ui",
+    "userId": 85458347,
+    "userUrl": "https://github.com/dammyt29-ui",
+    "publicId": "0x034adfb9a020fc908fb49a66c5c6b767f616513876e832782c3c53eeb3319f85",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094216074",
+    "commentId": 1094216074
+  },
+  {
+    "user": "MrPayne001",
+    "userId": 85682252,
+    "userUrl": "https://github.com/MrPayne001",
+    "publicId": "0x136ee04ba2ad70ac0664dac5c6d2f1c63c89513bf961577fe9d894ab5f574c6f",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094215985",
+    "commentId": 1094215985
+  },
+  {
+    "user": "stainless24",
+    "userId": 85727459,
+    "userUrl": "https://github.com/stainless24",
+    "publicId": "0x0f394fb812eac70ebb5864675b52542b46af1e357f47bdb965fa1973e63f5ba6",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094218648",
+    "commentId": 1094218648
+  },
+  {
+    "user": "Paulomah",
+    "userId": 85732530,
+    "userUrl": "https://github.com/Paulomah",
+    "publicId": "0x2186782455aeb1ad7f2dbadcf7ecd37de34596a55f6e44d05e1b5f435f442e4d",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094216766",
+    "commentId": 1094216766
+  },
+  {
+    "user": "Cruise01",
+    "userId": 85995186,
+    "userUrl": "https://github.com/Cruise01",
+    "publicId": "0x0fde1cb702a1b65230ae302a772104d5df507978bb5793780244642fc7157756",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214506",
+    "commentId": 1094214506
+  },
+  {
+    "user": "VPOWERSWAP",
+    "userId": 86084494,
+    "userUrl": "https://github.com/VPOWERSWAP",
+    "publicId": "0x16fe206156c07611c586ef6613076bd09f529e58afa5d519b9b0fbaf781c9298",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094216812",
+    "commentId": 1094216812
+  },
+  {
+    "user": "danganhbaoduy",
+    "userId": 87772749,
+    "userUrl": "https://github.com/danganhbaoduy",
+    "publicId": "0x2601f733851a98efba1a76d5df72c89222c3af09e33645cdab627a0e7e8810cd",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094215947",
+    "commentId": 1094215947
+  },
+  {
+    "user": "Kingzady",
+    "userId": 88231539,
+    "userUrl": "https://github.com/Kingzady",
+    "publicId": "0x098912875f3e98e372bb180e538b672bd43cce4ff1d60e7e753d1e77f8b84daa",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094218525",
+    "commentId": 1094218525
+  },
+  {
+    "user": "LordINTEGRITY1",
+    "userId": 88232102,
+    "userUrl": "https://github.com/LordINTEGRITY1",
+    "publicId": "0x2be1e0f5ca3bae56110317a0da19bc9ad970c67d05a5c9dd2e599d0d9d4a91ce",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214805",
+    "commentId": 1094214805
+  },
+  {
+    "user": "givenconsensus6892",
+    "userId": 88426561,
+    "userUrl": "https://github.com/givenconsensus6892",
+    "publicId": "0x07f7fff95a73aafc923921f550074877f3070057a206fbfb1678791a4728e782",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212756",
+    "commentId": 1094212756
+  },
+  {
+    "user": "warmshore1782",
+    "userId": 88501832,
+    "userUrl": "https://github.com/warmshore1782",
+    "publicId": "0x0a4a0693d03d715642f888de5f988bb051a6efefd427b2604dc4273c65a4d757",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213107",
+    "commentId": 1094213107
+  },
+  {
+    "user": "guesttown5050",
+    "userId": 88502171,
+    "userUrl": "https://github.com/guesttown5050",
+    "publicId": "0x0020387045d0dd69ba9f464a502bdf52525543abab2e2dc154cbbe3301b4898b",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213549",
+    "commentId": 1094213549
+  },
+  {
+    "user": "publicationlove",
+    "userId": 88673763,
+    "userUrl": "https://github.com/publicationlove",
+    "publicId": "0x2ccc8f3a7950b0a4df4f0110e15e4f1d50941c4bf9c460c006dc2d5330a579dd",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214031",
+    "commentId": 1094214031
+  },
+  {
+    "user": "sakewhy",
+    "userId": 88674278,
+    "userUrl": "https://github.com/sakewhy",
+    "publicId": "0x24c559f79dde04892207f18f5c5379ec572134773727a1805c7c19897bdf5d81",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214374",
+    "commentId": 1094214374
+  },
+  {
+    "user": "disorderpose",
+    "userId": 88675108,
+    "userUrl": "https://github.com/disorderpose",
+    "publicId": "0x2c97f6ed135c6006c3c74fbba3fff7708d4e4687d7d3d0363c1a704a20e2cf13",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214693",
+    "commentId": 1094214693
+  },
+  {
+    "user": "discriminationgeneration",
+    "userId": 88730900,
+    "userUrl": "https://github.com/discriminationgeneration",
+    "publicId": "0x2491a314b2b3ebc569e77d5ad8bf35e727581d439bab8f28ddceca4009dea3af",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094217497",
+    "commentId": 1094217497
+  },
+  {
+    "user": "probablyterrorism",
+    "userId": 88731993,
+    "userUrl": "https://github.com/probablyterrorism",
+    "publicId": "0x2a9daad73b4c6d58355e261b24f6209b69b10fadc9295d6821dc4f579b593bca",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094217881",
+    "commentId": 1094217881
+  },
+  {
+    "user": "replacepilot",
+    "userId": 88732457,
+    "userUrl": "https://github.com/replacepilot",
+    "publicId": "0x079326411817056d2264fd7c20ee74e3f76594c5b3dedc484eab43798ccecc72",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094218193",
+    "commentId": 1094218193
+  },
+  {
+    "user": "Aryana0631",
+    "userId": 88821562,
+    "userUrl": "https://github.com/Aryana0631",
+    "publicId": "0x0d450ea6fd43b08c1f56ece9bca05f02bca9cf63b3de1734bfe1557c8106997e",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213849",
+    "commentId": 1094213849
+  },
+  {
+    "user": "Wahyuhandira05",
+    "userId": 88944385,
+    "userUrl": "https://github.com/Wahyuhandira05",
+    "publicId": "0x26888c7a38bd04a5a17839f55cf274d7cfdadf72777e3dda52337983c58570a5",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094216846",
+    "commentId": 1094216846
+  },
+  {
+    "user": "Varshans2",
+    "userId": 89915467,
+    "userUrl": "https://github.com/Varshans2",
+    "publicId": "0x184077a010fdb9a236732bd32ff59f5600ed0cc5467e364ad990e8b3e8c07b9d",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094216976",
+    "commentId": 1094216976
+  },
+  {
+    "user": "codedonus",
+    "userId": 89918742,
+    "userUrl": "https://github.com/codedonus",
+    "publicId": "0x03550a6332f6aba88a4edc81b7ded459bfe9d9c14dd120eda191c279b8d77374",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212251",
+    "commentId": 1094212251
+  },
+  {
+    "user": "Sonnnnnnnnm",
+    "userId": 90148244,
+    "userUrl": "https://github.com/Sonnnnnnnnm",
+    "publicId": "0x236628a577b23ee761003e3fc0d3ab3f556391020a73e4068c2b36da70731d52",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094216680",
+    "commentId": 1094216680
+  },
+  {
+    "user": "TimiJacobs",
+    "userId": 90473762,
+    "userUrl": "https://github.com/TimiJacobs",
+    "publicId": "0x0ad797684db52179386bafb1c8ac7848cb0e0c2540ce5382161c973473707956",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214478",
+    "commentId": 1094214478
+  },
+  {
+    "user": "Cryptodraculla",
+    "userId": 90478091,
+    "userUrl": "https://github.com/Cryptodraculla",
+    "publicId": "0x1ac2879515667a26229e2b20d06fb98012cdb4dcb56193496a7dbda365388c8c",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094217595",
+    "commentId": 1094217595
+  },
+  {
+    "user": "Donchika",
+    "userId": 90597662,
+    "userUrl": "https://github.com/Donchika",
+    "publicId": "0x0e8defbda2941bf530f776c87208047ed64d0bd451827fef2b470330a0a562cb",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212582",
+    "commentId": 1094212582
+  },
+  {
+    "user": "yurty",
+    "userId": 90817554,
+    "userUrl": "https://github.com/yurty",
+    "publicId": "0x13182c79d14571bcd5d70f7553bddba91fdeb0d36b1e3e62cd01133c75d226e6",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213855",
+    "commentId": 1094213855
+  },
+  {
+    "user": "cointweet",
+    "userId": 91021474,
+    "userUrl": "https://github.com/cointweet",
+    "publicId": "0x1ee90332d8e21a680b714afb79cfc8ce18c82cf5854546beedeb898b78e2c8d2",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094218690",
+    "commentId": 1094218690
+  },
+  {
+    "user": "Lheinnex",
+    "userId": 91274191,
+    "userUrl": "https://github.com/Lheinnex",
+    "publicId": "0x07c2b8fad40856db26df2de7178a6f0157bbd010e73f18a386e5e28c88af4ba0",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094215909",
+    "commentId": 1094215909
+  },
+  {
+    "user": "Operation6141",
+    "userId": 91288484,
+    "userUrl": "https://github.com/Operation6141",
+    "publicId": "0x0c235302cac3152a9e33f9569c5c8f61c7bcd5aa294c7cb3956f07fd84459dfc",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214857",
+    "commentId": 1094214857
+  },
+  {
+    "user": "AristotelesRe",
+    "userId": 91746137,
+    "userUrl": "https://github.com/AristotelesRe",
+    "publicId": "0x0c6f1bf8477d6bf6c6bce7aee97bcc22ac460a45dc3bad6cc58214daf33706b5",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214367",
+    "commentId": 1094214367
+  },
+  {
+    "user": "Oprom",
+    "userId": 92563530,
+    "userUrl": "https://github.com/Oprom",
+    "publicId": "0x081d584fa7d2f11333dc06620161dbbab10405184399aec9bcb8a84947f30f63",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094207402",
+    "commentId": 1094207402
+  },
+  {
+    "user": "Wendybella",
+    "userId": 92777016,
+    "userUrl": "https://github.com/Wendybella",
+    "publicId": "0x12a53c6cec3c8b05fe997feee127c5cb5b1b5a1c44b31c339d5c6b25775836e3",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214436",
+    "commentId": 1094214436
+  },
+  {
+    "user": "Tomtomg778",
+    "userId": 94679234,
+    "userUrl": "https://github.com/Tomtomg778",
+    "publicId": "0x1b831c5095ad98c0d4cae527a3323efd449e634a833581f2a7d89baa309c27da",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213867",
+    "commentId": 1094213867
+  },
+  {
+    "user": "Brightestone-7647",
+    "userId": 95401145,
+    "userUrl": "https://github.com/Brightestone-7647",
+    "publicId": "0x06eba5bfb59fe9333d1715e619d83bfa525f13cc5a3da74c2f9b824833f84623",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213006",
+    "commentId": 1094213006
+  },
+  {
+    "user": "gegetbell",
+    "userId": 95436444,
+    "userUrl": "https://github.com/gegetbell",
+    "publicId": "0x2034b8668ea66d9552fd45be402d416182994e1a21f1e07fc23035b6c997e00e",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094217624",
+    "commentId": 1094217624
+  },
+  {
+    "user": "mubarok8",
+    "userId": 97151129,
+    "userUrl": "https://github.com/mubarok8",
+    "publicId": "0x1dfc6084a9035d88804c6f957e4c642597d228c48f2704c7eecff8d1e3ee6e00",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094217399",
+    "commentId": 1094217399
+  },
+  {
+    "user": "Vanchurry",
+    "userId": 97165347,
+    "userUrl": "https://github.com/Vanchurry",
+    "publicId": "0x11e5d22afe87907f6a2e363b83488a5d3239c81319fabd6f27e725ed3c2c77e3",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094218107",
+    "commentId": 1094218107
+  },
+  {
+    "user": "maskdogecoin",
+    "userId": 98101886,
+    "userUrl": "https://github.com/maskdogecoin",
+    "publicId": "0x21444f32123b09321e5955220e8b7b4e82652356f0e53de743a15d1c3462dae5",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213161",
+    "commentId": 1094213161
+  },
+  {
+    "user": "theabdulazeezRT",
+    "userId": 99444907,
+    "userUrl": "https://github.com/theabdulazeezRT",
+    "publicId": "0x147fafd521786be7fff493ecff34a88d1c3149445c7338f9f0ca96847b3102b1",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094218019",
+    "commentId": 1094218019
+  },
+  {
+    "user": "Maeen25",
+    "userId": 99765128,
+    "userUrl": "https://github.com/Maeen25",
+    "publicId": "0x0e18c41e0a11299970112e6b0b634a777d9eafb48ffb6695a103e1e67517b254",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212998",
+    "commentId": 1094212998
+  },
+  {
+    "user": "bholytechlinks",
+    "userId": 100705981,
+    "userUrl": "https://github.com/bholytechlinks",
+    "publicId": "0x00d939b9a1c175fb6cde67ef71caa529e2660d077757124580eb6c1e8e4a8e03",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094217075",
+    "commentId": 1094217075
+  },
+  {
+    "user": "samexdavid",
+    "userId": 101156478,
+    "userUrl": "https://github.com/samexdavid",
+    "publicId": "0x13dd69f8828e5e28de87bdc4aa048570d4c4a226e09618020beea6748f9c834f",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212247",
+    "commentId": 1094212247
+  },
+  {
+    "user": "ethvs",
+    "userId": 101963123,
+    "userUrl": "https://github.com/ethvs",
+    "publicId": "0x165411f9c78226bb8dd6958133793aa4ddc589b2cccf3c86fa0c0de34c8b1511",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094216799",
+    "commentId": 1094216799
+  },
+  {
+    "user": "marcosnarcos",
+    "userId": 102839571,
+    "userUrl": "https://github.com/marcosnarcos",
+    "publicId": "0x19a6b69cb74950d0fdcaebf2eadf2677b76437e1bcd760b911fddb596f7f43f6",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214551",
+    "commentId": 1094214551
+  },
+  {
+    "user": "Bablukumar12469992",
+    "userId": 103066594,
+    "userUrl": "https://github.com/Bablukumar12469992",
+    "publicId": "0x06ef9421b01dd39277a81deff5c896fc22ebdb1e64382681f87582565abb568b",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094211782",
+    "commentId": 1094211782
+  },
+  {
+    "user": "Beye420",
+    "userId": 103288496,
+    "userUrl": "https://github.com/Beye420",
+    "publicId": "0x079939e30583d675d734cc1a2713592fb47ef856a2884943349458d7d2887eb2",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214153",
+    "commentId": 1094214153
+  },
+  {
+    "user": "monu2345",
+    "userId": 103355879,
+    "userUrl": "https://github.com/monu2345",
+    "publicId": "0x12f7ebdae0ade93402ac9087c9a2d546b1f810310f8a8a76ef5d475207f2057a",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212194",
+    "commentId": 1094212194
+  },
+  {
+    "user": "Maktimah",
+    "userId": 103355893,
+    "userUrl": "https://github.com/Maktimah",
+    "publicId": "0x1dad280280888aa2d84455f14310143051e28cb5795f4fe6bab7e9b66c84715b",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212225",
+    "commentId": 1094212225
+  },
+  {
+    "user": "melakkuma",
+    "userId": 103355904,
+    "userUrl": "https://github.com/melakkuma",
+    "publicId": "0x2f2efc49d6275927a9c9aef61597e55a07a8fc8a99dffe5d0f81c90d5a61d824",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094211869",
+    "commentId": 1094211869
+  },
+  {
+    "user": "anshpandi",
+    "userId": 103355960,
+    "userUrl": "https://github.com/anshpandi",
+    "publicId": "0x1934648c3ee63798a7ba81c0de5b30f643768cf4bb104397b61fde97f7b6629c",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212341",
+    "commentId": 1094212341
+  },
+  {
+    "user": "baongoc2908",
+    "userId": 103356007,
+    "userUrl": "https://github.com/baongoc2908",
+    "publicId": "0x0326f96227cfb0dedf1030533a3ef66164cbd2ef7d129cbe194b9395e5fe27e5",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212368",
+    "commentId": 1094212368
+  },
+  {
+    "user": "chavelabanks",
+    "userId": 103356043,
+    "userUrl": "https://github.com/chavelabanks",
+    "publicId": "0x298005ac0e81968352514944bc6504560410bb37db37da6864a1554097a487ac",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094212449",
+    "commentId": 1094212449
+  },
+  {
+    "user": "Anjjiiiiir",
+    "userId": 103356056,
+    "userUrl": "https://github.com/Anjjiiiiir",
+    "publicId": "0x0b7cd8fcf49f43480010926d37a6a17c4ae1918021ac947e5da827e6f5b0b211",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213612",
+    "commentId": 1094213612
+  },
+  {
+    "user": "gabriel11alencar20",
+    "userId": 103356188,
+    "userUrl": "https://github.com/gabriel11alencar20",
+    "publicId": "0x1670fe9c65c2b0de036f7347392a95429c80c51a0df5ce46ec2801161d28e382",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213010",
+    "commentId": 1094213010
+  },
+  {
+    "user": "huu5cu78",
+    "userId": 103356293,
+    "userUrl": "https://github.com/huu5cu78",
+    "publicId": "0x2cc1869a42b2673f82996be4692124100160608a74e45a002130ec86bcc2ee2e",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213502",
+    "commentId": 1094213502
+  },
+  {
+    "user": "Onu-Nwigwe",
+    "userId": 103356362,
+    "userUrl": "https://github.com/Onu-Nwigwe",
+    "publicId": "0x1b18af0c5b559e9850003ca83e4e16aa5ed38deb1b33e01f0d4d2cc6e6bf5b2f",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214645",
+    "commentId": 1094214645
+  },
+  {
+    "user": "Engrishola",
+    "userId": 103356372,
+    "userUrl": "https://github.com/Engrishola",
+    "publicId": "0x16635cd8e9e370aea9f79f36f8dd91b6ec30cb29ed35976c846417961a246633",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094215951",
+    "commentId": 1094215951
+  },
+  {
+    "user": "hu5the10",
+    "userId": 103356385,
+    "userUrl": "https://github.com/hu5the10",
+    "publicId": "0x136d23e1e6a16841d8485d7774e336204bfd13dc66649cf4c906fef3df927fc6",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094213873",
+    "commentId": 1094213873
+  },
+  {
+    "user": "Wongwetan",
+    "userId": 103356485,
+    "userUrl": "https://github.com/Wongwetan",
+    "publicId": "0x2bc68ae1ed032c16c8d353bcf3658951a9978954982932ed937a90a3fde2f933",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214484",
+    "commentId": 1094214484
+  },
+  {
+    "user": "Darson09",
+    "userId": 103356529,
+    "userUrl": "https://github.com/Darson09",
+    "publicId": "0x1c6492c52150222b3c3b633e6deb5d3d004068ec05ff6f11ac7a4ec4b56b0e21",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094216014",
+    "commentId": 1094216014
+  },
+  {
+    "user": "Mikwan39",
+    "userId": 103356568,
+    "userUrl": "https://github.com/Mikwan39",
+    "publicId": "0x0bd263d6b86a88407e0606520f5c42e37610a14ff15de8b34bc28da8cf6c10da",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094215823",
+    "commentId": 1094215823
+  },
+  {
+    "user": "kasir000",
+    "userId": 103356643,
+    "userUrl": "https://github.com/kasir000",
+    "publicId": "0x0e324c0a54140013e029c6d9c16f5084d978f3da82cf776b92bdd09be7e3d0c5",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214753",
+    "commentId": 1094214753
+  },
+  {
+    "user": "dez543ty",
+    "userId": 103356690,
+    "userUrl": "https://github.com/dez543ty",
+    "publicId": "0x26ee2f39788cb4877f111043c57834c75d5aaad494363fe4346565b6af92afc4",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094214797",
+    "commentId": 1094214797
+  },
+  {
+    "user": "Munirice",
+    "userId": 103356733,
+    "userUrl": "https://github.com/Munirice",
+    "publicId": "0x05552f156e608fe96198eb04a6f7fd85c378307573f4cc3da30d4c16b9fec00a",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094216631",
+    "commentId": 1094216631
+  },
+  {
+    "user": "gez123tui",
+    "userId": 103356784,
+    "userUrl": "https://github.com/gez123tui",
+    "publicId": "0x0f49d33cb071e4fbe569e3eda2a9856afea8d30c3e8a7421abd505f42fd072a6",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094216090",
+    "commentId": 1094216090
+  },
+  {
+    "user": "Rizalefe",
+    "userId": 103356786,
+    "userUrl": "https://github.com/Rizalefe",
+    "publicId": "0x07d6c36adbe4fe08e6bb962f2b3537c273a4bbc9f6359eb68584be02b75467cc",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094216558",
+    "commentId": 1094216558
+  },
+  {
+    "user": "Tbuseli",
+    "userId": 103356822,
+    "userUrl": "https://github.com/Tbuseli",
+    "publicId": "0x77ac935052717d4117906ef6ea844d506b27354607084c87a1b44db578f0870e",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094217071",
+    "commentId": 1094217071
+  },
+  {
+    "user": "ccaovan790",
+    "userId": 103356906,
+    "userUrl": "https://github.com/ccaovan790",
+    "publicId": "0x239702671740c66ce60013fa36fc40ef9274f7f58a946289d5923d2ce8b3aa0d",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094216665",
+    "commentId": 1094216665
+  },
+  {
+    "user": "minhvu0211",
+    "userId": 103356978,
+    "userUrl": "https://github.com/minhvu0211",
+    "publicId": "0x2a5c2172f02850767e1dc3fae9abb7440531042d0f0d69b9516ba7122f8a84ed",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094216950",
+    "commentId": 1094216950
+  },
+  {
+    "user": "nbiet0193",
+    "userId": 103357006,
+    "userUrl": "https://github.com/nbiet0193",
+    "publicId": "0x0ccc80abc1a5158408c49ebb7c1624fd93ed2d144e359f629ed84bcdaec37148",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094217060",
+    "commentId": 1094217060
+  },
+  {
+    "user": "Pakwahono",
+    "userId": 103357012,
+    "userUrl": "https://github.com/Pakwahono",
+    "publicId": "0x1acff02b92d87d1fdc67488e526bfabdd84c564d63787e91600a8324f868438f",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094217482",
+    "commentId": 1094217482
+  },
+  {
+    "user": "Feranhanz77",
+    "userId": 103357045,
+    "userUrl": "https://github.com/Feranhanz77",
+    "publicId": "0xc64c3cc9b426892bda369a1694f31ea7ac5d4d9d67281c34740365695231a962",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094218522",
+    "commentId": 1094218522
+  },
+  {
+    "user": "duyencc7774thu",
+    "userId": 103357125,
+    "userUrl": "https://github.com/duyencc7774thu",
+    "publicId": "0x0652a5a10b25f5fd9bb76eef7e58e5ab2cf7cd1de040e9f91321dc90c66724ff",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094217625",
+    "commentId": 1094217625
+  },
+  {
+    "user": "anhsang2707",
+    "userId": 103357170,
+    "userUrl": "https://github.com/anhsang2707",
+    "publicId": "0x2f3904b608834689e3d99e942a263a013597dfc1ef3b6036a726f49742dcb8de",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094217941",
+    "commentId": 1094217941
+  },
+  {
+    "user": "Paksuroso",
+    "userId": 103357182,
+    "userUrl": "https://github.com/Paksuroso",
+    "publicId": "0x2ddd0110d4a2f647ff682118fa47c78a504e816d7fd59c115ef1be85e3012ff9",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094218459",
+    "commentId": 1094218459
+  },
+  {
+    "user": "ha406kho",
+    "userId": 103357196,
+    "userUrl": "https://github.com/ha406kho",
+    "publicId": "0x0004a8a6d075a537209f483fc5343c2aee0f3314f851859a8c79c1af5b1bae6b",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094218020",
+    "commentId": 1094218020
+  },
+  {
+    "user": "sag654tren",
+    "userId": 103357274,
+    "userUrl": "https://github.com/sag654tren",
+    "publicId": "0x21df303827a05a628b07484e1d1dd0b3156c5077eeba76bda50483fc4aadd9b1",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094218351",
+    "commentId": 1094218351
+  },
+  {
+    "user": "Erick280594",
+    "userId": 103357321,
+    "userUrl": "https://github.com/Erick280594",
+    "publicId": "0x0fb733819398f0bd41d9d35237e1632915db80058e06ad68416c933295148644",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094218686",
+    "commentId": 1094218686
+  },
+  {
+    "user": "vi59thao43",
+    "userId": 103357372,
+    "userUrl": "https://github.com/vi59thao43",
+    "publicId": "0x10e1410971cc88f39e41119f4772df86a4889096358e645376714c556cc9b515",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094218595",
+    "commentId": 1094218595
+  }
+]
