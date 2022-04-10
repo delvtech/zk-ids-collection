@@ -36,15 +36,18 @@ const commands = {
       .filter((user) => !idSubmissionUsers.includes(user))
       .map((user) => ({ user }))
     writeCSVFile('extra/csv/github_invalid.csv', invalidSubmissions)
-    writeCSVFile('extra/csv/github_ineligible.csv', ineligibleUsers)
     writeCSVFile('extra/csv/github_eligible_missing.csv', missingEligible)
     writeCSVFile('extra/csv/github_eligible.csv', eligible)
     writeJSONFile('extra/json/github_dupes.json', dupes)
     writeJSONFile('extra/json/github_invalid.json', invalidSubmissions)
-    writeJSONFile('extra/json/github_ineligible.json', ineligibleUsers)
+    writeJSONFile(
+      `extra/json/ineligible/github_ineligible_${Date.now()}.json`,
+      ineligibleUsers
+    )
     writeJSONFile('extra/json/github_eligible_missing.json', missingEligible)
     writeJSONFile('results/json/github.json', unique)
     writeCSVFile('results/csv/github.csv', unique)
+    github.clearIneligibleSubmissions(ineligibleUsers)
     console.log(
       `Collected ${idSubmissions.length} submissions from GitHub, filtered down to ${unique.length} unique users, and found ${eligible.length} eligible. Unique submissions in the results directory.`
     )

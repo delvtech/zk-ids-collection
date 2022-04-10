@@ -15,12 +15,19 @@ module.exports = {
     return [Object.values(byUniqueProperty), dupes]
   },
   getPublicId: (s) => s.match(/0x.{64}/)?.[0],
-  writeJSONFile: (path, data) =>
+  writeJSONFile: (path, data) => {
+    if (!data || !data.length) {
+      return null
+    }
     fs.writeFileSync(path, JSON.stringify(data, null, 2), {
       encoding: 'utf8',
       flag: 'w',
-    }),
-  writeCSVFile: (path, data) =>
+    })
+  },
+  writeCSVFile: (path, data) => {
+    if (!data || !data.length) {
+      return null
+    }
     fs.writeFileSync(
       path,
       [
@@ -31,5 +38,6 @@ module.exports = {
         encoding: 'utf8',
         flag: 'w',
       }
-    ),
+    )
+  },
 }

@@ -6,7 +6,7 @@ const client = new Octokit({ auth: process.env.GITHUB_PERSONAL_ACCESS_TOKEN })
 const commentsIterator = client.paginate.iterator(
   client.rest.issues.listComments,
   {
-    issue_number: 384,
+    issue_number: 724,
     owner: 'element-fi',
     repo: 'elf-council-frontend',
     per_page: 100,
@@ -62,6 +62,7 @@ module.exports = {
             [validPublicId ? 'publicId' : 'invalidSubmission']:
               validPublicId || comment.body,
             submissionUrl: comment.html_url,
+            commentId: comment.id,
           }
         }),
       ]
@@ -69,4 +70,13 @@ module.exports = {
     return allComments
   },
   getContributors,
+  clearIneligibleSubmissions: async (submissions) => {
+    submissions.forEach((sub) => {
+      client.rest.issues.deleteComment({
+        owner: 'element-fi',
+        repo: 'elf-council-frontend',
+        comment_id: sub.commentId,
+      })
+    })
+  },
 }
