@@ -2,39 +2,15 @@ isEligible,user,userId,userUrl,invalidSubmission,submissionUrl
 "false","tianzhirui","22299982","https://github.com/tianzhirui","0xdf156DAE212d744C54d1Cd9Ae8E3c1C34A1Ba34B","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085357762"
 "false","winnet234","22980055","https://github.com/winnet234","22980055","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1095290168"
 "false","Peters6444","25210004","https://github.com/Peters6444","Peters6444","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094313384"
-"false","Azippy","31494281","https://github.com/Azippy","0xc30f9996ccD802EAD447f6575AF16f394769A091","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094227592"
 "false","kamigz","31506893","https://github.com/kamigz","0xfc150a49f29ebd7e155930f6b11171ad74398c9f","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1086689032"
-"true","RestlessMike","34891911","https://github.com/RestlessMike","# Instructions
-1) Double check your eligibility. If you are not in [this list](https://gist.github.com/ryangoree/03694774a6a6e9f93a668c8f75c1a798) of github IDs, you will not be included in the claim process
-2) Click the Fork button on the top right of this page
-
-![Group_1](https://user-images.githubusercontent.com/5555162/162639887-05baf442-b407-49f8-8be3-5c0719963e87.png)
-
-3) Edit the newly forked gist
-4) Delete all text
-5) Paste in the the Public ID you generated at https://gov.element.fi/zk/github
-
-The image below represents what your gist should look like after pasting in your Public ID
-
-![unknown](https://user-images.githubusercontent.com/5555162/162635268-ab51ba37-c968-4caa-afd3-6a348214da5a.png)
-
-
-
-Public IDs will be collected until April 11, 2022, after which we'll provide a new link to check if your GitHub ID was eligible using your key and secret. Keep them private and don't lose them! The new link will be shared here, on Twitter, and in our Discord server. If you miss out on the first collection process, don't worry, we'll do additional collection periods.
-
-A reminder, the ZK claim process lets you maintain your privacy. Your Ethereum address cannot be doxxed.
-","https://gist.github.com/e27ac3342bcb461b208170f262d97a24"
 "false","ndrink","35225768","https://github.com/ndrink","ndrink","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094183162"
 "false","Abolaji11","35625780","https://github.com/Abolaji11","Here is my address, am definitely a human and not a bot
 
 0xF3C07d76bf0d3f74C21B299e3BeE517391ceCcB6","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094245482"
 "false","kado72","35660577","https://github.com/kado72","0xAe74399237E02458aa42283e7c3ef2929AD4896C","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1093120098"
-"false","talk2ec","36550074","https://github.com/talk2ec","Taking out ineligible accounts. ","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094242942"
 "false","smithsolo","37328146","https://github.com/smithsolo","I am not a bot","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094249358"
 "false","Ztvampire","39123774","https://github.com/Ztvampire","0xD79ADD81d0B801eaA6e7Fc9E1aCa731cB28381f7","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085355738"
 "false","manju26884","41605638","https://github.com/manju26884","manju26884","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094184164"
-"false","fraka123","43751699","https://github.com/fraka123","![Uploading cover2.jpg…]()
-","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094309784"
 "false","yeshengchao","49506376","https://github.com/yeshengchao","
 
 
@@ -43,11 +19,6 @@ A reminder, the ZK claim process lets you maintain your privacy. Your Ethereum a
 有疑问，可以加一下雪朗团队终生客服QQ：800078340，强烈要求加为好友，有更多超值大礼等待您来领取！","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085333820"
 "false","Kevwekendra","52117956","https://github.com/Kevwekendra","Kevwekendra
 ","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1095417081"
-"false","lingga888i","52864226","https://github.com/lingga888i","> Paste your Public ID in a comment below to associate it with your GitHub ID. Public IDs will be collected until **April 11, 2022**, after which we'll provide a new link to check if your GitHub ID was eligible using your key and secret. Keep them private and don't lose them! The new link will be shared here, on [Twitter](https://twitter.com/element_fi), and in our [Discord server](https://element.fi/discord).
-> 
-> **Ineligible submissions will be deleted. Beware bots! 🤖**
-
-0x64D2745F81f34b4B5A0d170FEBdD279c67c0f07f","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1094177862"
 "false","suoyawangluo","53345801","https://github.com/suoyawangluo","0x95c00D2cF32EdBa4CFec2Ef6086829942aAD70A0","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085355721"
 "false","kenny-code","54369003","https://github.com/kenny-code","0x069C1DA6A7a620c3d6A32483adCAD5e6F6BE4049","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094375063"
 "false","thangnd217","55123560","https://github.com/thangnd217","0x79BaD1563F01F767E907E66fbE5EA2729374b153","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085230764"
@@ -77,7 +48,6 @@ A reminder, the ZK claim process lets you maintain your privacy. Your Ethereum a
 "false","Aravindreddie","78042333","https://github.com/Aravindreddie","Nice project ","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1094178497"
 "false","ehenry-50","78314226","https://github.com/ehenry-50","0xA81B0eA7525b4D0493DC7Ff75A7C62e1b9A6a4A5
 ","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094280551"
-"false","Goldenprince4u","78371869","https://github.com/Goldenprince4u","0xa9f5863805646226a3345DaF22c5ea413CED8760","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094199563"
 "false","babsheykeyz","78378776","https://github.com/babsheykeyz","78378776+babsheykeyz@users.noreply.github.com","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094300358"
 "false","abbasido","78404964","https://github.com/abbasido","0xB0aa5260BB856537bB8b5848653fB2D5D7A257AA","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094240210"
 "false","SumanMahata","78903838","https://github.com/SumanMahata","Great ","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094180241"
@@ -85,12 +55,10 @@ A reminder, the ZK claim process lets you maintain your privacy. Your Ethereum a
 
 0xd078D3737c215Fd013D64197DD3cB2467ad75ea2","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1094126737"
 "false","linlianghui2021","79566661","https://github.com/linlianghui2021","0xBe55369BFbFd4bCCf13bD197eE7B1165c0B7A4F8","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085355454"
-"false","Abdul0741","79895743","https://github.com/Abdul0741","How do i search for my comment ","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094656319"
 "false","sandyr9","79956327","https://github.com/sandyr9","0xdD362762b3abfA90b4AB85C2a163354EFd639BcF","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1094179072"
 "false","jeffspace1","80294192","https://github.com/jeffspace1","这是来自QQ邮箱的假期自动回复邮件。你好，我最近正在休假中，无法亲自回复你的邮件。我将在假期结束后，尽快给你回复。","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085196394"
 "false","xrayboy1515","81394477","https://github.com/xrayboy1515","0x2AdDA0Cd355FC25bC8A1D9be7A13A0b50B8280F5","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094245053"
 "false","jib111","81949709","https://github.com/jib111","0x732052B8D446acdb4e43282Ec39C1A385c811B02","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085355116"
-"false","kingemyrs","82511186","https://github.com/kingemyrs","kingemyrs","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094248373"
 "false","whyte01","82763888","https://github.com/whyte01","> Paste your Public ID in a comment below to associate it with your GitHub ID. Public IDs will be collected until **April 11, 2022**, after which we'll provide a new link to check if your GitHub ID was eligible using your key and secret. Keep them private and don't lose them! The new link will be shared here, on [Twitter](https://twitter.com/element_fi), and in our [Discord server](https://element.fi/discord).
 > 
 > **Ineligible submissions will be deleted. Beware bots! 🤖**
@@ -101,17 +69,14 @@ NRJVAJDZQh4zfFKiwusN8AxQUtayXZMv9t","https://github.com/element-fi/elf-council-f
 imamiyadah","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094184224"
 "false","Martins1608","83089648","https://github.com/Martins1608","0x08835efc10bf735927a41379e0","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094414525"
 "false","keyzeefresh","83486662","https://github.com/keyzeefresh","0xcfa388f71Ecd6214800D7BF222F8cF74499930b9","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094224916"
-"false","Godsonchidera","84230464","https://github.com/Godsonchidera","0xd7475c4fD55e3e8ee531103BeDb49e5F192fce88","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094209499"
 "false","mosh86","84617218","https://github.com/mosh86","0x082a7745762A21089D79b7AE877D77481adb823e","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085356452"
 "false","yubai12","84718551","https://github.com/yubai12","0xf879ec67cbddBa1d8BBd25aF5BBBe02347479a72","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085355266"
 "false","zengzhaoquan","84972355","https://github.com/zengzhaoquan","0xc33cCB817a7e693CAEe626117745B1fA7BE5BAA2","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085357599"
 "false","suoyawangluo3","85392630","https://github.com/suoyawangluo3","0xaE6779A4e97F4503eA14e4f8bD120529388FE463","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085358635"
-"false","irfanpandiangan","85465955","https://github.com/irfanpandiangan","0x4e6A85fF1b5BC452aD8DB16CBb5925D55A5ca376","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1094177559"
 "false","twitterfinance","85619535","https://github.com/twitterfinance","
 0x00759a08185819161C0a7C6345f9545Ad257CaB7","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1094169957"
 "false","popesam1","85710169","https://github.com/popesam1","Popesam1","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094245881"
 "false","dharmydee","85712411","https://github.com/dharmydee","0x6223ef9759C916731aa03E9572a2269819C38bd2","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1095149459"
-"false","0z0vehe","85722067","https://github.com/0z0vehe","It is the bot","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094257879"
 "false","lekham003","85725892","https://github.com/lekham003","0xe3f74386cadE4506C20E907aB3A07530054eA3f3","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1094156948"
 "false","rexxiedaniels","85730138","https://github.com/rexxiedaniels","I thought I said I was not a bot this is unfair ","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094245804"
 "false","broysh","85782657","https://github.com/broysh","0xe22F1f87e0D27828d017dF7A947B947a6D015E0D","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1094164909"
@@ -123,7 +88,6 @@ Thanks","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomm
 "false","woshidazhi","86301841","https://github.com/woshidazhi","0x6a876B77Aa7632dee8847b4837a950F39bD514B1","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085411498"
 "false","Wqm12p","86619115","https://github.com/Wqm12p","0xA2E714Ca57cdB55F34B25210A4915A80Eb54f614","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094284711"
 "false","shakilbd69","88455472","https://github.com/shakilbd69","0x4103B949F1dF6A973547bB449a2466e8380f278a","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1094179130"
-"false","Kombet12","88523897","https://github.com/Kombet12","0x26AfD2CA3be16Ec7a9417754d601f97803d7831D","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094179378"
 "false","travisGHST","88559427","https://github.com/travisGHST","not a bot please
 ","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094243616"
 "false","d3ckys","90836277","https://github.com/d3ckys","0xf33724E05f296eCBC3E5BA09254D60A4B057dE45","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1094177136"
@@ -131,8 +95,6 @@ Thanks","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomm
 "false","Ebenzswag33","91151325","https://github.com/Ebenzswag33","0x89DE1c7069f48c04152179EcB789F98864C0D5c9","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1094177050"
 "false","Iamoptimist","91520131","https://github.com/Iamoptimist","0x659E0FACe812487A399Ef87E4ff355BeD09e0f7C","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094224539"
 "false","asjapbaru","92030950","https://github.com/asjapbaru","asjapajjh","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094247289"
-"false","Mhlabir","93470783","https://github.com/Mhlabir","0xA53db06B7Ce3106CA674887a8be4a7772B72bb9E","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094186298"
-"false","Kandar3","95110152","https://github.com/Kandar3","Good projects succes 🥳🥳🥳","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094193626"
 "false","nameaven","95199636","https://github.com/nameaven","0x73f61e66345b8f78951508e8f1Cd0Ab51e1d9B6b","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085355066"
 "false","shabai111","95599449","https://github.com/shabai111","0x895cAE19987aBd117e8E8fEB4ff45b9719f12A70","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085355485"
 "false","bebyzye","95682234","https://github.com/bebyzye","0xCaFEE84324Bd2bA6c33DD1EdDD7CCCC62a7E5076","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1094178288"
@@ -145,7 +107,6 @@ Thanks","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomm
 "false","Bayhan9615","98092724","https://github.com/Bayhan9615","good","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094303318"
 "false","Cryptosaja88","98096742","https://github.com/Cryptosaja88","0x9c83Da25bAbCaB9EF121C4eeb24BCE4DED992527","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1094178529"
 "false","Supolbellz1","98401725","https://github.com/Supolbellz1","0x804E46f064DAd93b67c6b5c4e7EB136D8F02B32B","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094227759"
-"false","Sammish211","98502436","https://github.com/Sammish211","Please don't delete my comment ","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094257649"
 "false","Dannyfaraday","99052109","https://github.com/Dannyfaraday","0x80C139B754cc04E8Ec4FE5A9660ed70A6A84bA64","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094258543"
 "false","rrr789","101967388","https://github.com/rrr789","0xf75D143EbD1e8c83bC6ADa773ccc7d2C2EC43543","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1087604499"
 "false","luckywin5751","102397259","https://github.com/luckywin5751","> Paste your Public ID in a comment below to associate it with your GitHub ID. Public IDs will be collected until **April 11, 2022**, after which we'll provide a new link to check if your GitHub ID was eligible using your key and secret. Keep them private and don't lose them! The new link will be shared here, on [Twitter](https://twitter.com/element_fi), and in our [Discord server](https://element.fi/discord).
@@ -156,19 +117,12 @@ Thanks","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomm
 "false","hh6hh001","103109755","https://github.com/hh6hh001","> 将您的公共ID粘贴到下面的评论中，将其与您的GitHub ID相关联。将收集公共id，直到**2022年4月11日**之后，我们将提供一个新的链接来检查您的GitHub ID是否符合使用您的密钥和密码的条件。保持私密，不要丢失！新链接将在此分享，在[推特](https://twitter.com/element_fi)，在我们的[不和谐服务器](https://element.fi/discord).
 
 ","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1092475885"
-"false","Polarlichtes","103183904","https://github.com/Polarlichtes","Your bot checks deleted my reply, I'm not a bot , I only created this account a few days ago, and still trying to come to terms with how it works. I will only repost my ID if you review this and give me the nods by reacting to this. I'm not trying to spam either, so here you go, over to you...","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094355332"
 "false","Hok-droid","103337252","https://github.com/Hok-droid","Great projects ","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1094126505"
 "false","Neltex01","103341957","https://github.com/Neltex01","0x4a08719f66a340Bd722C2cE9dc2AAc6060e70f7b","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1094153592"
 "false","Anisafilqubiangelica","103349339","https://github.com/Anisafilqubiangelica","0x66FFAe9A1b77f670F76b72366a6D0E1A34720E23","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094183971"
 "false","Doomboommm","103349379","https://github.com/Doomboommm","0x7A52C1C42d0447c1B2F21f2Cb669fb412D7e779B","https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1094179650"
 "false","aberadesssd","103349767","https://github.com/aberadesssd","0x300187571ce48a3b92b1be65efebed99556c1e6e6c561613b2367a0151c2be","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094185790"
 "false","pakronal","103350220","https://github.com/pakronal","0xb3AA11A4A0ac5B7612CE4080880E6F86FA1069f5","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094184650"
-"false","laperedondada6469","103354005","https://github.com/laperedondada6469","Ox1a5f04822683ad95bab38d596d7e227a859a a886c3fc08a9f399e17caaa2970f
-
-
-
-
-Please don't delete my comment","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094259700"
 "false","Pabloblaq","103359837","https://github.com/Pabloblaq","0x83cAdaf951627C9FCb83eC7Ed5E7FD8cda8adA59","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094232525"
 "false","fedmoonway","103360298","https://github.com/fedmoonway","0xcfa388f71Ecd6214800D7BF222F8cF74499930b9","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094238581"
 "false","Sammiekay123","103363236","https://github.com/Sammiekay123","Sammiekay123","https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094247124"

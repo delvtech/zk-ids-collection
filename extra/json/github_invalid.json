@@ -25,27 +25,11 @@
   },
   {
     "isEligible": false,
-    "user": "Azippy",
-    "userId": 31494281,
-    "userUrl": "https://github.com/Azippy",
-    "invalidSubmission": "0xc30f9996ccD802EAD447f6575AF16f394769A091",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094227592"
-  },
-  {
-    "isEligible": false,
     "user": "kamigz",
     "userId": 31506893,
     "userUrl": "https://github.com/kamigz",
     "invalidSubmission": "0xfc150a49f29ebd7e155930f6b11171ad74398c9f",
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1086689032"
-  },
-  {
-    "isEligible": true,
-    "user": "RestlessMike",
-    "userId": 34891911,
-    "userUrl": "https://github.com/RestlessMike",
-    "invalidSubmission": "# Instructions\n1) Double check your eligibility. If you are not in [this list](https://gist.github.com/ryangoree/03694774a6a6e9f93a668c8f75c1a798) of github IDs, you will not be included in the claim process\n2) Click the Fork button on the top right of this page\n\n![Group_1](https://user-images.githubusercontent.com/5555162/162639887-05baf442-b407-49f8-8be3-5c0719963e87.png)\n\n3) Edit the newly forked gist\n4) Delete all text\n5) Paste in the the Public ID you generated at https://gov.element.fi/zk/github\n\nThe image below represents what your gist should look like after pasting in your Public ID\n\n![unknown](https://user-images.githubusercontent.com/5555162/162635268-ab51ba37-c968-4caa-afd3-6a348214da5a.png)\n\n\n\nPublic IDs will be collected until April 11, 2022, after which we'll provide a new link to check if your GitHub ID was eligible using your key and secret. Keep them private and don't lose them! The new link will be shared here, on Twitter, and in our Discord server. If you miss out on the first collection process, don't worry, we'll do additional collection periods.\n\nA reminder, the ZK claim process lets you maintain your privacy. Your Ethereum address cannot be doxxed.\n",
-    "submissionUrl": "https://gist.github.com/e27ac3342bcb461b208170f262d97a24"
   },
   {
     "isEligible": false,
@@ -73,14 +57,6 @@
   },
   {
     "isEligible": false,
-    "user": "talk2ec",
-    "userId": 36550074,
-    "userUrl": "https://github.com/talk2ec",
-    "invalidSubmission": "Taking out ineligible accounts. ",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094242942"
-  },
-  {
-    "isEligible": false,
     "user": "smithsolo",
     "userId": 37328146,
     "userUrl": "https://github.com/smithsolo",
@@ -105,14 +81,6 @@
   },
   {
     "isEligible": false,
-    "user": "fraka123",
-    "userId": 43751699,
-    "userUrl": "https://github.com/fraka123",
-    "invalidSubmission": "![Uploading cover2.jpg…]()\r\n",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094309784"
-  },
-  {
-    "isEligible": false,
     "user": "yeshengchao",
     "userId": 49506376,
     "userUrl": "https://github.com/yeshengchao",
@@ -126,14 +94,6 @@
     "userUrl": "https://github.com/Kevwekendra",
     "invalidSubmission": "Kevwekendra\r\n",
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1095417081"
-  },
-  {
-    "isEligible": false,
-    "user": "lingga888i",
-    "userId": 52864226,
-    "userUrl": "https://github.com/lingga888i",
-    "invalidSubmission": "> Paste your Public ID in a comment below to associate it with your GitHub ID. Public IDs will be collected until **April 11, 2022**, after which we'll provide a new link to check if your GitHub ID was eligible using your key and secret. Keep them private and don't lose them! The new link will be shared here, on [Twitter](https://twitter.com/element_fi), and in our [Discord server](https://element.fi/discord).\r\n> \r\n> **Ineligible submissions will be deleted. Beware bots! 🤖**\r\n\r\n0x64D2745F81f34b4B5A0d170FEBdD279c67c0f07f",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1094177862"
   },
   {
     "isEligible": false,
@@ -281,14 +241,6 @@
   },
   {
     "isEligible": false,
-    "user": "Goldenprince4u",
-    "userId": 78371869,
-    "userUrl": "https://github.com/Goldenprince4u",
-    "invalidSubmission": "0xa9f5863805646226a3345DaF22c5ea413CED8760",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094199563"
-  },
-  {
-    "isEligible": false,
     "user": "babsheykeyz",
     "userId": 78378776,
     "userUrl": "https://github.com/babsheykeyz",
@@ -329,14 +281,6 @@
   },
   {
     "isEligible": false,
-    "user": "Abdul0741",
-    "userId": 79895743,
-    "userUrl": "https://github.com/Abdul0741",
-    "invalidSubmission": "How do i search for my comment ",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094656319"
-  },
-  {
-    "isEligible": false,
     "user": "sandyr9",
     "userId": 79956327,
     "userUrl": "https://github.com/sandyr9",
@@ -366,14 +310,6 @@
     "userUrl": "https://github.com/jib111",
     "invalidSubmission": "0x732052B8D446acdb4e43282Ec39C1A385c811B02",
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085355116"
-  },
-  {
-    "isEligible": false,
-    "user": "kingemyrs",
-    "userId": 82511186,
-    "userUrl": "https://github.com/kingemyrs",
-    "invalidSubmission": "kingemyrs",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094248373"
   },
   {
     "isEligible": false,
@@ -409,14 +345,6 @@
   },
   {
     "isEligible": false,
-    "user": "Godsonchidera",
-    "userId": 84230464,
-    "userUrl": "https://github.com/Godsonchidera",
-    "invalidSubmission": "0xd7475c4fD55e3e8ee531103BeDb49e5F192fce88",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094209499"
-  },
-  {
-    "isEligible": false,
     "user": "mosh86",
     "userId": 84617218,
     "userUrl": "https://github.com/mosh86",
@@ -449,14 +377,6 @@
   },
   {
     "isEligible": false,
-    "user": "irfanpandiangan",
-    "userId": 85465955,
-    "userUrl": "https://github.com/irfanpandiangan",
-    "invalidSubmission": "0x4e6A85fF1b5BC452aD8DB16CBb5925D55A5ca376",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1094177559"
-  },
-  {
-    "isEligible": false,
     "user": "twitterfinance",
     "userId": 85619535,
     "userUrl": "https://github.com/twitterfinance",
@@ -478,14 +398,6 @@
     "userUrl": "https://github.com/dharmydee",
     "invalidSubmission": "0x6223ef9759C916731aa03E9572a2269819C38bd2",
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1095149459"
-  },
-  {
-    "isEligible": false,
-    "user": "0z0vehe",
-    "userId": 85722067,
-    "userUrl": "https://github.com/0z0vehe",
-    "invalidSubmission": "It is the bot",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094257879"
   },
   {
     "isEligible": false,
@@ -553,14 +465,6 @@
   },
   {
     "isEligible": false,
-    "user": "Kombet12",
-    "userId": 88523897,
-    "userUrl": "https://github.com/Kombet12",
-    "invalidSubmission": "0x26AfD2CA3be16Ec7a9417754d601f97803d7831D",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094179378"
-  },
-  {
-    "isEligible": false,
     "user": "travisGHST",
     "userId": 88559427,
     "userUrl": "https://github.com/travisGHST",
@@ -606,22 +510,6 @@
     "userUrl": "https://github.com/asjapbaru",
     "invalidSubmission": "asjapajjh",
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094247289"
-  },
-  {
-    "isEligible": false,
-    "user": "Mhlabir",
-    "userId": 93470783,
-    "userUrl": "https://github.com/Mhlabir",
-    "invalidSubmission": "0xA53db06B7Ce3106CA674887a8be4a7772B72bb9E",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094186298"
-  },
-  {
-    "isEligible": false,
-    "user": "Kandar3",
-    "userId": 95110152,
-    "userUrl": "https://github.com/Kandar3",
-    "invalidSubmission": "Good projects succes 🥳🥳🥳",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094193626"
   },
   {
     "isEligible": false,
@@ -721,14 +609,6 @@
   },
   {
     "isEligible": false,
-    "user": "Sammish211",
-    "userId": 98502436,
-    "userUrl": "https://github.com/Sammish211",
-    "invalidSubmission": "Please don't delete my comment ",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094257649"
-  },
-  {
-    "isEligible": false,
     "user": "Dannyfaraday",
     "userId": 99052109,
     "userUrl": "https://github.com/Dannyfaraday",
@@ -758,14 +638,6 @@
     "userUrl": "https://github.com/hh6hh001",
     "invalidSubmission": "> 将您的公共ID粘贴到下面的评论中，将其与您的GitHub ID相关联。将收集公共id，直到**2022年4月11日**之后，我们将提供一个新的链接来检查您的GitHub ID是否符合使用您的密钥和密码的条件。保持私密，不要丢失！新链接将在此分享，在[推特](https://twitter.com/element_fi)，在我们的[不和谐服务器](https://element.fi/discord).\r\n\r\n",
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1092475885"
-  },
-  {
-    "isEligible": false,
-    "user": "Polarlichtes",
-    "userId": 103183904,
-    "userUrl": "https://github.com/Polarlichtes",
-    "invalidSubmission": "Your bot checks deleted my reply, I'm not a bot , I only created this account a few days ago, and still trying to come to terms with how it works. I will only repost my ID if you review this and give me the nods by reacting to this. I'm not trying to spam either, so here you go, over to you...",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094355332"
   },
   {
     "isEligible": false,
@@ -814,14 +686,6 @@
     "userUrl": "https://github.com/pakronal",
     "invalidSubmission": "0xb3AA11A4A0ac5B7612CE4080880E6F86FA1069f5",
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094184650"
-  },
-  {
-    "isEligible": false,
-    "user": "laperedondada6469",
-    "userId": 103354005,
-    "userUrl": "https://github.com/laperedondada6469",
-    "invalidSubmission": "Ox1a5f04822683ad95bab38d596d7e227a859a a886c3fc08a9f399e17caaa2970f\r\n\r\n\r\n\r\n\r\nPlease don't delete my comment",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094259700"
   },
   {
     "isEligible": false,

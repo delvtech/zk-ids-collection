@@ -1,41 +1,23 @@
 require('dotenv').config()
-const fs = require('fs')
-const path = require('path')
 const github = require('./clients/github')
 const discord = require('./clients/discord')
 const githubWLFile = require('./whitelist/github.json')
 const githubRepoWL = require('./whitelist/github_repos.json')
 const githubManuallyCollected = require('./manually_collected.json')
+const deletedGitHubSubmissions = require('./extra/json/deleted_submissions.json')
 const discordWLFile = require('./whitelist/discord.json')
 const { writeJSONFile, dedupeByProperty, writeCSVFile } = require('./util')
 
-const githubWL = Object.keys(githubWLFile)
-let deletedEligible = []
-const deletedCommentsDirPath = './extra/json/deleted-ineligible'
-const deletedCommentFiles = fs.readdirSync(deletedCommentsDirPath)
-for (const file of deletedCommentFiles) {
-  const filePath = path.join(deletedCommentsDirPath, file)
-  const stat = fs.statSync(filePath)
-  if (stat.isFile()) {
-    const fileData = fs.readFileSync(filePath, 'utf8')
-    deletedEligible = [
-      ...deletedEligible,
-      ...JSON.parse(fileData).filter((submission) =>
-        githubWL.includes(submission.user)
-      ),
-    ]
-  }
-}
-
 const commands = {
   github: async () => {
+    const whitelist = Object.keys(githubWLFile)
     const allSubmissions = [
       ...(await github.getIdSubmissions({
         issueIds: [384, 724],
         gistIds: ['64763b68ab4479aa46429c194d476b82'],
       })),
       ...githubManuallyCollected,
-      ...deletedEligible,
+      ...deletedGitHubSubmissions,
     ]
     const [unique, dupes] = dedupeByProperty(allSubmissions, 'userId')
     const invalidSubmissions = []
@@ -44,7 +26,7 @@ const commands = {
       .filter((submission) => {
         if (submission.invalidSubmission) {
           invalidSubmissions.push({
-            isEligible: githubWL.includes(submission.user),
+            isEligible: whitelist.includes(submission.user),
             ...submission,
           })
           return false
@@ -52,14 +34,14 @@ const commands = {
         return true
       })
       .filter((submission) => {
-        const isEligible = githubWL.includes(submission.user)
+        const isEligible = whitelist.includes(submission.user)
         if (!isEligible) {
           ineligibleUsers.push(submission)
         }
         return isEligible
       })
     const idSubmissionUsers = unique.map((user) => user.user)
-    const missingEligible = githubWL
+    const missingEligible = whitelist
       .filter((user) => !idSubmissionUsers.includes(user))
       .map((user) => ({ user }))
 
