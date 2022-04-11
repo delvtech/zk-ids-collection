@@ -40,6 +40,10 @@ const commands = {
         }
         return isEligible
       })
+      .map((submission) => ({
+        ...submission,
+        claimAmount: githubWLFile[submission.user],
+      }))
     const idSubmissionUsers = unique.map((user) => user.user)
     const missingEligible = whitelist
       .filter((user) => !idSubmissionUsers.includes(user))
@@ -96,6 +100,12 @@ const commands = {
         }
         return isEligible
       })
+      .map((submission) => ({
+        ...submission,
+        claimAmount: discordWLFile.find(
+          (user) => user.userID === submission.userId
+        )?.tokens,
+      }))
     const idSubmissionUsers = unique.map((user) => user.userId)
     const missingEligible = whitelist
       .filter((user) => !idSubmissionUsers.includes(user))
