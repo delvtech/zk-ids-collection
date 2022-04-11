@@ -28,11 +28,14 @@ module.exports = {
     if (!data || !data.length) {
       return null
     }
+    const colNames = Object.keys(data[0])
     fs.writeFileSync(
       path,
       [
-        Object.keys(data[0]),
-        ...data.map((row) => `"${Object.values(row).join('","')}"`),
+        colNames,
+        ...data.map((row) =>
+          colNames.map((colName) => `"${row[colName]}"`).join(',')
+        ),
       ].join('\n'),
       {
         encoding: 'utf8',
