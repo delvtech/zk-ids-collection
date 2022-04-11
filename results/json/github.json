@@ -1864,6 +1864,14 @@
     "commentId": 1085272935
   },
   {
+    "user": "everdimension",
+    "userId": 5347023,
+    "userUrl": "https://github.com/everdimension",
+    "publicId": "0x05baa67af0201cf90f07237b4fcd77ff375a391f705d31a007802a92c480a950",
+    "submissionUrl": "https://gist.github.com/c2c0c9afbce47100aa2a3bf932ff2267",
+    "commentId": "c2c0c9afbce47100aa2a3bf932ff2267"
+  },
+  {
     "user": "thelostone-mc",
     "userId": 5358146,
     "userUrl": "https://github.com/thelostone-mc",
@@ -2054,6 +2062,14 @@
     "publicId": "0x0fd08ebad47a270cabf938060b12ac3c242aa8cff0fa71f1b52c17f68422996e",
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085839137",
     "commentId": 1085839137
+  },
+  {
+    "user": "zerts",
+    "userId": 6473880,
+    "userUrl": "https://github.com/zerts",
+    "publicId": "0x0e63bef8d03e54e38ed9c1af9ad314d8933898b3cdcd09518f369103308753cd",
+    "submissionUrl": "https://gist.github.com/02aa28ea6cbbda691fd9dd549e0e94b2",
+    "commentId": "02aa28ea6cbbda691fd9dd549e0e94b2"
   },
   {
     "user": "cesarsld",
@@ -5726,6 +5742,14 @@
     "publicId": "0x2833b2431a67c981e42784263debeabf330e4ad33db8001201df5ce080cdef27",
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094238007",
     "commentId": 1094238007
+  },
+  {
+    "user": "ornellacordoba",
+    "userId": 47790304,
+    "userUrl": "https://github.com/ornellacordoba",
+    "publicId": "0x126debf923638db0c71a7d461f5bc83b9360ca1d1b52005797d4b69671bfdd20",
+    "submissionUrl": "https://gist.github.com/ed7ae56aead6836c2cdd130d00e66691",
+    "commentId": "ed7ae56aead6836c2cdd130d00e66691"
   },
   {
     "user": "NickHuang4ever",
@@ -13836,8 +13860,8 @@
     "userId": 87678219,
     "userUrl": "https://github.com/tonkers-kuma",
     "publicId": "0x2a7d74bc83d61dabcceabc41df67b91b87e2e9c9ed268a778df4b33d79c50985",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1094169094",
-    "commentId": 1094169094
+    "submissionUrl": "https://gist.github.com/d0a6f55f0d837396ca9c597bad101722",
+    "commentId": "d0a6f55f0d837396ca9c597bad101722"
   },
   {
     "user": "ezcryptoin",

@@ -18,7 +18,10 @@ const githubCommand = async () => {
   const eligible = unique
     .filter((submission) => {
       if (submission.invalidSubmission) {
-        invalidSubmissions.push(submission)
+        invalidSubmissions.push({
+          isEligible: whitelist.includes(submission.user),
+          ...submission,
+        })
         return false
       }
       return true
@@ -78,7 +81,10 @@ const commands = {
     const eligible = uniqueWithNames
       .filter((submission) => {
         if (submission.invalidSubmission) {
-          invalidSubmissions.push(submission)
+          invalidSubmissions.push({
+            isEligible: whitelist.includes(submission.userId),
+            ...submission,
+          })
           return false
         }
         return true

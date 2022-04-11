@@ -1,5 +1,6 @@
 [
   {
+    "isEligible": true,
     "user": "SebVentures",
     "userId": 2377687,
     "userUrl": "https://github.com/SebVentures",
@@ -8,6 +9,7 @@
     "commentId": "ac31f3d4ec537ea451a9b45d0876d6d9"
   },
   {
+    "isEligible": false,
     "user": "tianzhirui",
     "userId": 22299982,
     "userUrl": "https://github.com/tianzhirui",
@@ -16,6 +18,7 @@
     "commentId": 1085357762
   },
   {
+    "isEligible": false,
     "user": "winnet234",
     "userId": 22980055,
     "userUrl": "https://github.com/winnet234",
@@ -24,6 +27,7 @@
     "commentId": 1095290168
   },
   {
+    "isEligible": false,
     "user": "Peters6444",
     "userId": 25210004,
     "userUrl": "https://github.com/Peters6444",
@@ -32,6 +36,7 @@
     "commentId": 1094313384
   },
   {
+    "isEligible": false,
     "user": "Azippy",
     "userId": 31494281,
     "userUrl": "https://github.com/Azippy",
@@ -40,6 +45,7 @@
     "commentId": 1094227592
   },
   {
+    "isEligible": false,
     "user": "kamigz",
     "userId": 31506893,
     "userUrl": "https://github.com/kamigz",
@@ -48,6 +54,7 @@
     "commentId": 1086689032
   },
   {
+    "isEligible": true,
     "user": "RestlessMike",
     "userId": 34891911,
     "userUrl": "https://github.com/RestlessMike",
@@ -56,6 +63,7 @@
     "commentId": "e27ac3342bcb461b208170f262d97a24"
   },
   {
+    "isEligible": false,
     "user": "ndrink",
     "userId": 35225768,
     "userUrl": "https://github.com/ndrink",
@@ -64,6 +72,7 @@
     "commentId": 1094183162
   },
   {
+    "isEligible": false,
     "user": "Abolaji11",
     "userId": 35625780,
     "userUrl": "https://github.com/Abolaji11",
@@ -72,6 +81,7 @@
     "commentId": 1094245482
   },
   {
+    "isEligible": false,
     "user": "kado72",
     "userId": 35660577,
     "userUrl": "https://github.com/kado72",
@@ -80,6 +90,7 @@
     "commentId": 1093120098
   },
   {
+    "isEligible": false,
     "user": "talk2ec",
     "userId": 36550074,
     "userUrl": "https://github.com/talk2ec",
@@ -88,6 +99,7 @@
     "commentId": 1094242942
   },
   {
+    "isEligible": false,
     "user": "smithsolo",
     "userId": 37328146,
     "userUrl": "https://github.com/smithsolo",
@@ -96,6 +108,7 @@
     "commentId": 1094249358
   },
   {
+    "isEligible": false,
     "user": "Ztvampire",
     "userId": 39123774,
     "userUrl": "https://github.com/Ztvampire",
@@ -104,6 +117,7 @@
     "commentId": 1085355738
   },
   {
+    "isEligible": false,
     "user": "manju26884",
     "userId": 41605638,
     "userUrl": "https://github.com/manju26884",
@@ -112,6 +126,7 @@
     "commentId": 1094184164
   },
   {
+    "isEligible": false,
     "user": "fraka123",
     "userId": 43751699,
     "userUrl": "https://github.com/fraka123",
@@ -120,6 +135,7 @@
     "commentId": 1094309784
   },
   {
+    "isEligible": false,
     "user": "yeshengchao",
     "userId": 49506376,
     "userUrl": "https://github.com/yeshengchao",
@@ -128,6 +144,7 @@
     "commentId": 1085333820
   },
   {
+    "isEligible": false,
     "user": "Kevwekendra",
     "userId": 52117956,
     "userUrl": "https://github.com/Kevwekendra",
@@ -136,6 +153,7 @@
     "commentId": 1095417081
   },
   {
+    "isEligible": false,
     "user": "lingga888i",
     "userId": 52864226,
     "userUrl": "https://github.com/lingga888i",
@@ -144,6 +162,7 @@
     "commentId": 1094177862
   },
   {
+    "isEligible": false,
     "user": "suoyawangluo",
     "userId": 53345801,
     "userUrl": "https://github.com/suoyawangluo",
@@ -152,6 +171,7 @@
     "commentId": 1085355721
   },
   {
+    "isEligible": false,
     "user": "kenny-code",
     "userId": 54369003,
     "userUrl": "https://github.com/kenny-code",
@@ -160,6 +180,7 @@
     "commentId": 1094375063
   },
   {
+    "isEligible": false,
     "user": "thangnd217",
     "userId": 55123560,
     "userUrl": "https://github.com/thangnd217",
@@ -168,6 +189,7 @@
     "commentId": 1085230764
   },
   {
+    "isEligible": false,
     "user": "Tossy1212",
     "userId": 55281631,
     "userUrl": "https://github.com/Tossy1212",
@@ -176,6 +198,7 @@
     "commentId": 1094493034
   },
   {
+    "isEligible": false,
     "user": "Adonis1245",
     "userId": 58106549,
     "userUrl": "https://github.com/Adonis1245",
@@ -184,6 +207,7 @@
     "commentId": 1094193884
   },
   {
+    "isEligible": false,
     "user": "gushuaishuai008",
     "userId": 58133883,
     "userUrl": "https://github.com/gushuaishuai008",
@@ -192,6 +216,7 @@
     "commentId": 1086597357
   },
   {
+    "isEligible": false,
     "user": "antoan10",
     "userId": 58193455,
     "userUrl": "https://github.com/antoan10",
@@ -200,6 +225,7 @@
     "commentId": 1093966111
   },
   {
+    "isEligible": true,
     "user": "monet-supply",
     "userId": 61923401,
     "userUrl": "https://github.com/monet-supply",
@@ -208,6 +234,7 @@
     "commentId": "07045891e821710835cc1092b203f40b"
   },
   {
+    "isEligible": true,
     "user": "darkfire-rain",
     "userId": 67558925,
     "userUrl": "https://github.com/darkfire-rain",
@@ -216,6 +243,7 @@
     "commentId": "e044d1843aefe8257c886409102d4339"
   },
   {
+    "isEligible": false,
     "user": "standardsam",
     "userId": 72789767,
     "userUrl": "https://github.com/standardsam",
@@ -224,6 +252,7 @@
     "commentId": 1094257834
   },
   {
+    "isEligible": false,
     "user": "Chizzygold",
     "userId": 74756257,
     "userUrl": "https://github.com/Chizzygold",
@@ -232,6 +261,7 @@
     "commentId": 1094143823
   },
   {
+    "isEligible": false,
     "user": "byri1986",
     "userId": 74815144,
     "userUrl": "https://github.com/byri1986",
@@ -240,6 +270,7 @@
     "commentId": 1086830681
   },
   {
+    "isEligible": false,
     "user": "Captainjug",
     "userId": 75387595,
     "userUrl": "https://github.com/Captainjug",
@@ -248,6 +279,7 @@
     "commentId": 1094220417
   },
   {
+    "isEligible": false,
     "user": "kramdondon",
     "userId": 76429112,
     "userUrl": "https://github.com/kramdondon",
@@ -256,6 +288,7 @@
     "commentId": 1094150098
   },
   {
+    "isEligible": false,
     "user": "cnskyy",
     "userId": 76573941,
     "userUrl": "https://github.com/cnskyy",
@@ -264,6 +297,7 @@
     "commentId": 1085355817
   },
   {
+    "isEligible": false,
     "user": "Eehsha",
     "userId": 76849505,
     "userUrl": "https://github.com/Eehsha",
@@ -272,6 +306,7 @@
     "commentId": 1094236597
   },
   {
+    "isEligible": false,
     "user": "patratwitter",
     "userId": 77768269,
     "userUrl": "https://github.com/patratwitter",
@@ -280,6 +315,7 @@
     "commentId": 1094181581
   },
   {
+    "isEligible": false,
     "user": "Aravindreddie",
     "userId": 78042333,
     "userUrl": "https://github.com/Aravindreddie",
@@ -288,6 +324,7 @@
     "commentId": 1094178497
   },
   {
+    "isEligible": false,
     "user": "ehenry-50",
     "userId": 78314226,
     "userUrl": "https://github.com/ehenry-50",
@@ -296,6 +333,7 @@
     "commentId": 1094280551
   },
   {
+    "isEligible": false,
     "user": "Goldenprince4u",
     "userId": 78371869,
     "userUrl": "https://github.com/Goldenprince4u",
@@ -304,6 +342,7 @@
     "commentId": 1094199563
   },
   {
+    "isEligible": false,
     "user": "babsheykeyz",
     "userId": 78378776,
     "userUrl": "https://github.com/babsheykeyz",
@@ -312,6 +351,7 @@
     "commentId": 1094300358
   },
   {
+    "isEligible": false,
     "user": "abbasido",
     "userId": 78404964,
     "userUrl": "https://github.com/abbasido",
@@ -320,6 +360,7 @@
     "commentId": 1094240210
   },
   {
+    "isEligible": false,
     "user": "SumanMahata",
     "userId": 78903838,
     "userUrl": "https://github.com/SumanMahata",
@@ -328,6 +369,7 @@
     "commentId": 1094180241
   },
   {
+    "isEligible": false,
     "user": "DestroBlaq",
     "userId": 79092371,
     "userUrl": "https://github.com/DestroBlaq",
@@ -336,6 +378,7 @@
     "commentId": 1094126737
   },
   {
+    "isEligible": false,
     "user": "linlianghui2021",
     "userId": 79566661,
     "userUrl": "https://github.com/linlianghui2021",
@@ -344,6 +387,7 @@
     "commentId": 1085355454
   },
   {
+    "isEligible": false,
     "user": "Abdul0741",
     "userId": 79895743,
     "userUrl": "https://github.com/Abdul0741",
@@ -352,6 +396,7 @@
     "commentId": 1094656319
   },
   {
+    "isEligible": false,
     "user": "sandyr9",
     "userId": 79956327,
     "userUrl": "https://github.com/sandyr9",
@@ -360,6 +405,7 @@
     "commentId": 1094179072
   },
   {
+    "isEligible": false,
     "user": "jeffspace1",
     "userId": 80294192,
     "userUrl": "https://github.com/jeffspace1",
@@ -368,6 +414,7 @@
     "commentId": 1085196394
   },
   {
+    "isEligible": false,
     "user": "xrayboy1515",
     "userId": 81394477,
     "userUrl": "https://github.com/xrayboy1515",
@@ -376,6 +423,7 @@
     "commentId": 1094245053
   },
   {
+    "isEligible": false,
     "user": "jib111",
     "userId": 81949709,
     "userUrl": "https://github.com/jib111",
@@ -384,6 +432,7 @@
     "commentId": 1085355116
   },
   {
+    "isEligible": false,
     "user": "kingemyrs",
     "userId": 82511186,
     "userUrl": "https://github.com/kingemyrs",
@@ -392,6 +441,7 @@
     "commentId": 1094248373
   },
   {
+    "isEligible": false,
     "user": "whyte01",
     "userId": 82763888,
     "userUrl": "https://github.com/whyte01",
@@ -400,6 +450,7 @@
     "commentId": 1094239394
   },
   {
+    "isEligible": false,
     "user": "imamiyadah",
     "userId": 82909452,
     "userUrl": "https://github.com/imamiyadah",
@@ -408,6 +459,7 @@
     "commentId": 1094184224
   },
   {
+    "isEligible": false,
     "user": "Martins1608",
     "userId": 83089648,
     "userUrl": "https://github.com/Martins1608",
@@ -416,6 +468,7 @@
     "commentId": 1094414525
   },
   {
+    "isEligible": false,
     "user": "keyzeefresh",
     "userId": 83486662,
     "userUrl": "https://github.com/keyzeefresh",
@@ -424,6 +477,7 @@
     "commentId": 1094224916
   },
   {
+    "isEligible": false,
     "user": "Godsonchidera",
     "userId": 84230464,
     "userUrl": "https://github.com/Godsonchidera",
@@ -432,6 +486,7 @@
     "commentId": 1094209499
   },
   {
+    "isEligible": false,
     "user": "mosh86",
     "userId": 84617218,
     "userUrl": "https://github.com/mosh86",
@@ -440,6 +495,7 @@
     "commentId": 1085356452
   },
   {
+    "isEligible": false,
     "user": "yubai12",
     "userId": 84718551,
     "userUrl": "https://github.com/yubai12",
@@ -448,6 +504,7 @@
     "commentId": 1085355266
   },
   {
+    "isEligible": false,
     "user": "zengzhaoquan",
     "userId": 84972355,
     "userUrl": "https://github.com/zengzhaoquan",
@@ -456,6 +513,7 @@
     "commentId": 1085357599
   },
   {
+    "isEligible": false,
     "user": "suoyawangluo3",
     "userId": 85392630,
     "userUrl": "https://github.com/suoyawangluo3",
@@ -464,6 +522,7 @@
     "commentId": 1085358635
   },
   {
+    "isEligible": false,
     "user": "irfanpandiangan",
     "userId": 85465955,
     "userUrl": "https://github.com/irfanpandiangan",
@@ -472,6 +531,7 @@
     "commentId": 1094177559
   },
   {
+    "isEligible": false,
     "user": "twitterfinance",
     "userId": 85619535,
     "userUrl": "https://github.com/twitterfinance",
@@ -480,6 +540,7 @@
     "commentId": 1094169957
   },
   {
+    "isEligible": false,
     "user": "popesam1",
     "userId": 85710169,
     "userUrl": "https://github.com/popesam1",
@@ -488,6 +549,7 @@
     "commentId": 1094245881
   },
   {
+    "isEligible": false,
     "user": "dharmydee",
     "userId": 85712411,
     "userUrl": "https://github.com/dharmydee",
@@ -496,6 +558,7 @@
     "commentId": 1095149459
   },
   {
+    "isEligible": false,
     "user": "0z0vehe",
     "userId": 85722067,
     "userUrl": "https://github.com/0z0vehe",
@@ -504,6 +567,7 @@
     "commentId": 1094257879
   },
   {
+    "isEligible": false,
     "user": "lekham003",
     "userId": 85725892,
     "userUrl": "https://github.com/lekham003",
@@ -512,6 +576,7 @@
     "commentId": 1094156948
   },
   {
+    "isEligible": false,
     "user": "rexxiedaniels",
     "userId": 85730138,
     "userUrl": "https://github.com/rexxiedaniels",
@@ -520,6 +585,7 @@
     "commentId": 1094245804
   },
   {
+    "isEligible": false,
     "user": "broysh",
     "userId": 85782657,
     "userUrl": "https://github.com/broysh",
@@ -528,6 +594,7 @@
     "commentId": 1094164909
   },
   {
+    "isEligible": false,
     "user": "kheymax",
     "userId": 85794521,
     "userUrl": "https://github.com/kheymax",
@@ -536,6 +603,7 @@
     "commentId": 1094243358
   },
   {
+    "isEligible": false,
     "user": "lanrie",
     "userId": 86247542,
     "userUrl": "https://github.com/lanrie",
@@ -544,6 +612,7 @@
     "commentId": 1094249735
   },
   {
+    "isEligible": false,
     "user": "woshidazhi",
     "userId": 86301841,
     "userUrl": "https://github.com/woshidazhi",
@@ -552,6 +621,7 @@
     "commentId": 1085411498
   },
   {
+    "isEligible": false,
     "user": "Wqm12p",
     "userId": 86619115,
     "userUrl": "https://github.com/Wqm12p",
@@ -560,6 +630,7 @@
     "commentId": 1094284711
   },
   {
+    "isEligible": false,
     "user": "shakilbd69",
     "userId": 88455472,
     "userUrl": "https://github.com/shakilbd69",
@@ -568,6 +639,7 @@
     "commentId": 1094179130
   },
   {
+    "isEligible": false,
     "user": "Kombet12",
     "userId": 88523897,
     "userUrl": "https://github.com/Kombet12",
@@ -576,6 +648,7 @@
     "commentId": 1094179378
   },
   {
+    "isEligible": false,
     "user": "travisGHST",
     "userId": 88559427,
     "userUrl": "https://github.com/travisGHST",
@@ -584,6 +657,7 @@
     "commentId": 1094243616
   },
   {
+    "isEligible": false,
     "user": "d3ckys",
     "userId": 90836277,
     "userUrl": "https://github.com/d3ckys",
@@ -592,6 +666,7 @@
     "commentId": 1094177136
   },
   {
+    "isEligible": false,
     "user": "Tamimkhan2021",
     "userId": 90881987,
     "userUrl": "https://github.com/Tamimkhan2021",
@@ -600,6 +675,7 @@
     "commentId": 1094306350
   },
   {
+    "isEligible": false,
     "user": "Ebenzswag33",
     "userId": 91151325,
     "userUrl": "https://github.com/Ebenzswag33",
@@ -608,6 +684,7 @@
     "commentId": 1094177050
   },
   {
+    "isEligible": false,
     "user": "Iamoptimist",
     "userId": 91520131,
     "userUrl": "https://github.com/Iamoptimist",
@@ -616,6 +693,7 @@
     "commentId": 1094224539
   },
   {
+    "isEligible": false,
     "user": "asjapbaru",
     "userId": 92030950,
     "userUrl": "https://github.com/asjapbaru",
@@ -624,6 +702,7 @@
     "commentId": 1094247289
   },
   {
+    "isEligible": false,
     "user": "Mhlabir",
     "userId": 93470783,
     "userUrl": "https://github.com/Mhlabir",
@@ -632,6 +711,7 @@
     "commentId": 1094186298
   },
   {
+    "isEligible": false,
     "user": "Kandar3",
     "userId": 95110152,
     "userUrl": "https://github.com/Kandar3",
@@ -640,6 +720,7 @@
     "commentId": 1094193626
   },
   {
+    "isEligible": false,
     "user": "nameaven",
     "userId": 95199636,
     "userUrl": "https://github.com/nameaven",
@@ -648,6 +729,7 @@
     "commentId": 1085355066
   },
   {
+    "isEligible": false,
     "user": "shabai111",
     "userId": 95599449,
     "userUrl": "https://github.com/shabai111",
@@ -656,6 +738,7 @@
     "commentId": 1085355485
   },
   {
+    "isEligible": false,
     "user": "bebyzye",
     "userId": 95682234,
     "userUrl": "https://github.com/bebyzye",
@@ -664,6 +747,7 @@
     "commentId": 1094178288
   },
   {
+    "isEligible": false,
     "user": "maodouxiaobao",
     "userId": 95868000,
     "userUrl": "https://github.com/maodouxiaobao",
@@ -672,6 +756,7 @@
     "commentId": 1085270059
   },
   {
+    "isEligible": false,
     "user": "Wenger123",
     "userId": 95979786,
     "userUrl": "https://github.com/Wenger123",
@@ -680,6 +765,7 @@
     "commentId": 1094185365
   },
   {
+    "isEligible": false,
     "user": "btcbankss",
     "userId": 96413545,
     "userUrl": "https://github.com/btcbankss",
@@ -688,6 +774,7 @@
     "commentId": 1085356246
   },
   {
+    "isEligible": false,
     "user": "Solace-exe",
     "userId": 96593657,
     "userUrl": "https://github.com/Solace-exe",
@@ -696,6 +783,7 @@
     "commentId": 1094281828
   },
   {
+    "isEligible": false,
     "user": "Marcell12345",
     "userId": 96596595,
     "userUrl": "https://github.com/Marcell12345",
@@ -704,6 +792,7 @@
     "commentId": 1094223548
   },
   {
+    "isEligible": false,
     "user": "Astradapapagwen",
     "userId": 97867406,
     "userUrl": "https://github.com/Astradapapagwen",
@@ -712,6 +801,7 @@
     "commentId": 1094211771
   },
   {
+    "isEligible": false,
     "user": "Bayhan9615",
     "userId": 98092724,
     "userUrl": "https://github.com/Bayhan9615",
@@ -720,6 +810,7 @@
     "commentId": 1094303318
   },
   {
+    "isEligible": false,
     "user": "Cryptosaja88",
     "userId": 98096742,
     "userUrl": "https://github.com/Cryptosaja88",
@@ -728,6 +819,7 @@
     "commentId": 1094178529
   },
   {
+    "isEligible": false,
     "user": "Supolbellz1",
     "userId": 98401725,
     "userUrl": "https://github.com/Supolbellz1",
@@ -736,6 +828,7 @@
     "commentId": 1094227759
   },
   {
+    "isEligible": false,
     "user": "Sammish211",
     "userId": 98502436,
     "userUrl": "https://github.com/Sammish211",
@@ -744,6 +837,7 @@
     "commentId": 1094257649
   },
   {
+    "isEligible": false,
     "user": "Dannyfaraday",
     "userId": 99052109,
     "userUrl": "https://github.com/Dannyfaraday",
@@ -752,6 +846,7 @@
     "commentId": 1094258543
   },
   {
+    "isEligible": false,
     "user": "rrr789",
     "userId": 101967388,
     "userUrl": "https://github.com/rrr789",
@@ -760,6 +855,7 @@
     "commentId": 1087604499
   },
   {
+    "isEligible": false,
     "user": "luckywin5751",
     "userId": 102397259,
     "userUrl": "https://github.com/luckywin5751",
@@ -768,6 +864,7 @@
     "commentId": 1094178604
   },
   {
+    "isEligible": false,
     "user": "hh6hh001",
     "userId": 103109755,
     "userUrl": "https://github.com/hh6hh001",
@@ -776,6 +873,7 @@
     "commentId": 1092475885
   },
   {
+    "isEligible": false,
     "user": "Polarlichtes",
     "userId": 103183904,
     "userUrl": "https://github.com/Polarlichtes",
@@ -784,6 +882,7 @@
     "commentId": 1094355332
   },
   {
+    "isEligible": false,
     "user": "Hok-droid",
     "userId": 103337252,
     "userUrl": "https://github.com/Hok-droid",
@@ -792,6 +891,7 @@
     "commentId": 1094126505
   },
   {
+    "isEligible": false,
     "user": "Neltex01",
     "userId": 103341957,
     "userUrl": "https://github.com/Neltex01",
@@ -800,6 +900,7 @@
     "commentId": 1094153592
   },
   {
+    "isEligible": false,
     "user": "Anisafilqubiangelica",
     "userId": 103349339,
     "userUrl": "https://github.com/Anisafilqubiangelica",
@@ -808,6 +909,7 @@
     "commentId": 1094183971
   },
   {
+    "isEligible": false,
     "user": "Doomboommm",
     "userId": 103349379,
     "userUrl": "https://github.com/Doomboommm",
@@ -816,6 +918,7 @@
     "commentId": 1094179650
   },
   {
+    "isEligible": false,
     "user": "aberadesssd",
     "userId": 103349767,
     "userUrl": "https://github.com/aberadesssd",
@@ -824,6 +927,7 @@
     "commentId": 1094185790
   },
   {
+    "isEligible": false,
     "user": "pakronal",
     "userId": 103350220,
     "userUrl": "https://github.com/pakronal",
@@ -832,6 +936,7 @@
     "commentId": 1094184650
   },
   {
+    "isEligible": false,
     "user": "laperedondada6469",
     "userId": 103354005,
     "userUrl": "https://github.com/laperedondada6469",
@@ -840,6 +945,7 @@
     "commentId": 1094259700
   },
   {
+    "isEligible": false,
     "user": "Pabloblaq",
     "userId": 103359837,
     "userUrl": "https://github.com/Pabloblaq",
@@ -848,6 +954,7 @@
     "commentId": 1094232525
   },
   {
+    "isEligible": false,
     "user": "fedmoonway",
     "userId": 103360298,
     "userUrl": "https://github.com/fedmoonway",
@@ -856,6 +963,7 @@
     "commentId": 1094238581
   },
   {
+    "isEligible": false,
     "user": "Sammiekay123",
     "userId": 103363236,
     "userUrl": "https://github.com/Sammiekay123",
