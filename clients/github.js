@@ -1,7 +1,6 @@
 const { Octokit } = require('octokit')
 const { getPublicId } = require('../util')
 const githubWL = require('../whitelist/github.json')
-const fs = require('fs')
 
 const client = new Octokit({ auth: process.env.GITHUB_PERSONAL_ACCESS_TOKEN })
 
@@ -107,18 +106,17 @@ const getContributors = async (repos) => {
 module.exports = {
   getIdSubmissions: async ({ issueIds, gistIds }) => {
     let allSubmissions = []
-    if (issueIds.length) {
-      for (let i = 0; i < issueIds.length; i++) {
-        allSubmissions = [...allSubmissions, ...await getIssueSubmissions(issueIds[i])]
-      }
+    for (const issueId of issueIds) {
+      allSubmissions = [
+        ...allSubmissions,
+        ...(await getIssueSubmissions(issueId)),
+      ]
     }
-    if (gistIds.length) {
-      for (let i = 0; i < gistIds.length; i++) {
-        allSubmissions = [
-          ...allSubmissions,
-          ...(await getGistSubmissions(gistIds[i])),
-        ]
-      }
+    for (const gistId of gistIds) {
+      allSubmissions = [
+        ...allSubmissions,
+        ...(await getGistSubmissions(gistId)),
+      ]
     }
     return allSubmissions
   },
