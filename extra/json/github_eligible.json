@@ -651,6 +651,13 @@
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1086385747"
   },
   {
+    "user": "mariano-aguero",
+    "userId": 1144028,
+    "userUrl": "https://github.com/mariano-aguero",
+    "publicId": "0x2bfa3a690b88f51c03ddf63e16d9ce55818ca417e6f52adb4b0ab326572bb9e3",
+    "submissionUrl": "https://gist.github.com/d6ae69f8bf136e47de8ca219136ebec2"
+  },
+  {
     "user": "rafinskipg",
     "userId": 1152768,
     "userUrl": "https://github.com/rafinskipg",
@@ -817,6 +824,13 @@
     "userUrl": "https://github.com/e00E",
     "publicId": "0x008361cc80bf51900fd538099f1cb9c980f0bbb46353e065cbda15cce95a90d7",
     "submissionUrl": "https://gist.github.com/57370d02193c6d46680b7971fcdd04ea"
+  },
+  {
+    "user": "zac-williamson",
+    "userId": 1476668,
+    "userUrl": "https://github.com/zac-williamson",
+    "publicId": "0x19d35776bbe54be2abfebd10bf3effc52a5988cc45769ac2bce8de6fb85c6f0d",
+    "submissionUrl": "https://gist.github.com/f14ff7d33e3c4e0a05cd802e5722addc"
   },
   {
     "user": "kongliangzhong",
@@ -1127,7 +1141,6 @@
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085426414"
   },
   {
-    "isEligible": true,
     "user": "SebVentures",
     "userId": 2377687,
     "userUrl": "https://github.com/SebVentures",
@@ -1763,6 +1776,13 @@
     "userUrl": "https://github.com/arielgabizon",
     "publicId": "0x298ed1b025d79f153bde4b99f0e7261246d065d2c621e8243438d3522e20d3fa",
     "submissionUrl": "https://gist.github.com/a0d03cf9ea63dd38901843eb7f044ec9"
+  },
+  {
+    "user": "charlielye",
+    "userId": 5764343,
+    "userUrl": "https://github.com/charlielye",
+    "publicId": "0x24869b7f37905e5d6846e5e4af37a083023ee1fbe8e220138802132f776d46ce",
+    "submissionUrl": "https://gist.github.com/768edccf3838793c543184056a6f67e7"
   },
   {
     "user": "JFrankfurt",
@@ -3865,7 +3885,6 @@
     "submissionUrl": "https://gist.github.com/2484304b92af939fc8905cfd80314692"
   },
   {
-    "isEligible": true,
     "user": "darkfire-rain",
     "userId": 67558925,
     "userUrl": "https://github.com/darkfire-rain",
