@@ -1,11 +1,27 @@
 [
   {
+    "user": "SebVentures",
+    "userId": 2377687,
+    "userUrl": "https://github.com/SebVentures",
+    "invalidSubmission": "# Instructions\n1) Double check your eligibility. If you are not in [this list](https://gist.github.com/ryangoree/03694774a6a6e9f93a668c8f75c1a798) of github IDs, you will not be included in the claim process\n2) Click the Fork button on the top right of this page\n\n![Group_1](https://user-images.githubusercontent.com/5555162/162639887-05baf442-b407-49f8-8be3-5c0719963e87.png)\n\n3) Edit the newly forked gist\n4) Delete all text\n5) Paste in the the Public ID you generated at https://gov.element.fi/zk/github\n\nThe image below represents what your gist should look like after pasting in your Public ID\n\n![unknown](https://user-images.githubusercontent.com/5555162/162635268-ab51ba37-c968-4caa-afd3-6a348214da5a.png)\n\n\n\nPublic IDs will be collected until April 11, 2022, after which we'll provide a new link to check if your GitHub ID was eligible using your key and secret. Keep them private and don't lose them! The new link will be shared here, on Twitter, and in our Discord server. If you miss out on the first collection process, don't worry, we'll do additional collection periods.\n\nA reminder, the ZK claim process lets you maintain your privacy. Your Ethereum address cannot be doxxed.\n",
+    "submissionUrl": "https://gist.github.com/ac31f3d4ec537ea451a9b45d0876d6d9",
+    "commentId": "ac31f3d4ec537ea451a9b45d0876d6d9"
+  },
+  {
     "user": "tianzhirui",
     "userId": 22299982,
     "userUrl": "https://github.com/tianzhirui",
     "invalidSubmission": "0xdf156DAE212d744C54d1Cd9Ae8E3c1C34A1Ba34B",
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085357762",
     "commentId": 1085357762
+  },
+  {
+    "user": "winnet234",
+    "userId": 22980055,
+    "userUrl": "https://github.com/winnet234",
+    "invalidSubmission": "22980055",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1095290168",
+    "commentId": 1095290168
   },
   {
     "user": "Peters6444",
@@ -30,6 +46,14 @@
     "invalidSubmission": "0xfc150a49f29ebd7e155930f6b11171ad74398c9f",
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1086689032",
     "commentId": 1086689032
+  },
+  {
+    "user": "RestlessMike",
+    "userId": 34891911,
+    "userUrl": "https://github.com/RestlessMike",
+    "invalidSubmission": "# Instructions\n1) Double check your eligibility. If you are not in [this list](https://gist.github.com/ryangoree/03694774a6a6e9f93a668c8f75c1a798) of github IDs, you will not be included in the claim process\n2) Click the Fork button on the top right of this page\n\n![Group_1](https://user-images.githubusercontent.com/5555162/162639887-05baf442-b407-49f8-8be3-5c0719963e87.png)\n\n3) Edit the newly forked gist\n4) Delete all text\n5) Paste in the the Public ID you generated at https://gov.element.fi/zk/github\n\nThe image below represents what your gist should look like after pasting in your Public ID\n\n![unknown](https://user-images.githubusercontent.com/5555162/162635268-ab51ba37-c968-4caa-afd3-6a348214da5a.png)\n\n\n\nPublic IDs will be collected until April 11, 2022, after which we'll provide a new link to check if your GitHub ID was eligible using your key and secret. Keep them private and don't lose them! The new link will be shared here, on Twitter, and in our Discord server. If you miss out on the first collection process, don't worry, we'll do additional collection periods.\n\nA reminder, the ZK claim process lets you maintain your privacy. Your Ethereum address cannot be doxxed.\n",
+    "submissionUrl": "https://gist.github.com/e27ac3342bcb461b208170f262d97a24",
+    "commentId": "e27ac3342bcb461b208170f262d97a24"
   },
   {
     "user": "ndrink",
@@ -80,14 +104,6 @@
     "commentId": 1085355738
   },
   {
-    "user": "tktrades",
-    "userId": 39212335,
-    "userUrl": "https://github.com/tktrades",
-    "invalidSubmission": "0x40Bd0f4B692cdfA6D39Eca27A6becAe637c5eD23",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094524985",
-    "commentId": 1094524985
-  },
-  {
     "user": "manju26884",
     "userId": 41605638,
     "userUrl": "https://github.com/manju26884",
@@ -110,6 +126,14 @@
     "invalidSubmission": "\n\n\n您好，我是你的好朋友叶胜超，这是我特意给您的新人大礼包（只为你开放了72个小时！）:http://cps.xuelangteam.com/,\n请您立即订阅一下，千万别错失这次机会，获得我的《叶胜超创富秘笈》！\n有疑问，可以加一下雪朗团队终生客服QQ：800078340，强烈要求加为好友，有更多超值大礼等待您来领取！",
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085333820",
     "commentId": 1085333820
+  },
+  {
+    "user": "Kevwekendra",
+    "userId": 52117956,
+    "userUrl": "https://github.com/Kevwekendra",
+    "invalidSubmission": "Kevwekendra\r\n",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1095417081",
+    "commentId": 1095417081
   },
   {
     "user": "lingga888i",
@@ -174,6 +198,22 @@
     "invalidSubmission": "0xd07Ab898B49c888570dA0F7C3D5b15f6F3eF9688",
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1093966111",
     "commentId": 1093966111
+  },
+  {
+    "user": "monet-supply",
+    "userId": 61923401,
+    "userUrl": "https://github.com/monet-supply",
+    "invalidSubmission": "# Instructions\n1) Double check your eligibility. If you are not in [this list](https://gist.github.com/ryangoree/03694774a6a6e9f93a668c8f75c1a798) of github IDs, you will not be included in the claim process\n2) Click the Fork button on the top right of this page\n3) Edit the newly forked gist\n4) Delete all text\n5) Paste in the the Public ID you generated at https://gov.element.fi/zk/github\n\nPublic IDs will be collected until April 11, 2022, after which we'll provide a new link to check if your GitHub ID was eligible using your key and secret. Keep them private and don't lose them! The new link will be shared here, on Twitter, and in our Discord server. If you miss out on the first collection process, don't worry, we'll do additional collection periods.\n\nA reminder, the ZK claim process lets you maintain your privacy. Your Ethereum address cannot be doxxed.\n",
+    "submissionUrl": "https://gist.github.com/07045891e821710835cc1092b203f40b",
+    "commentId": "07045891e821710835cc1092b203f40b"
+  },
+  {
+    "user": "darkfire-rain",
+    "userId": 67558925,
+    "userUrl": "https://github.com/darkfire-rain",
+    "invalidSubmission": "# Instructions\n1) Double check your eligibility. If you are not in [this list](https://github.com/element-fi/zk-ids-collection/blob/main/whitelist/github.json) of github IDs, you will not be included in the claim process\n2) Click the Fork button on the top right of this page\n3) Edit the newly forked gist\n4) Delete all text\n5) Paste in the the Public ID you generated at https://gov.element.fi/zk/github\n\nPublic IDs will be collected until April 11, 2022, after which we'll provide a new link to check if your GitHub ID was eligible using your key and secret. Keep them private and don't lose them! The new link will be shared here, on Twitter, and in our Discord server. If you miss out on the first collection process, don't worry, we'll do additional collection periods.\n\nA reminder, the ZK claim process lets you maintain your privacy. Your Ethereum address cannot be doxxed.\n",
+    "submissionUrl": "https://gist.github.com/e044d1843aefe8257c886409102d4339",
+    "commentId": "e044d1843aefe8257c886409102d4339"
   },
   {
     "user": "standardsam",
@@ -302,6 +342,14 @@
     "invalidSubmission": "0xBe55369BFbFd4bCCf13bD197eE7B1165c0B7A4F8",
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1085355454",
     "commentId": 1085355454
+  },
+  {
+    "user": "Abdul0741",
+    "userId": 79895743,
+    "userUrl": "https://github.com/Abdul0741",
+    "invalidSubmission": "How do i search for my comment ",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094656319",
+    "commentId": 1094656319
   },
   {
     "user": "sandyr9",
@@ -438,6 +486,14 @@
     "invalidSubmission": "Popesam1",
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094245881",
     "commentId": 1094245881
+  },
+  {
+    "user": "dharmydee",
+    "userId": 85712411,
+    "userUrl": "https://github.com/dharmydee",
+    "invalidSubmission": "0x6223ef9759C916731aa03E9572a2269819C38bd2",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1095149459",
+    "commentId": 1095149459
   },
   {
     "user": "0z0vehe",

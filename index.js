@@ -6,14 +6,12 @@ const githubRepoWL = require('./whitelist/github_repos.json')
 const discordWL = require('./whitelist/discord.json')
 const { writeJSONFile, dedupeByProperty, writeCSVFile } = require('./util')
 
-// issues: 384, 724
-const githubIssueId = 724;
-
 const githubCommand = async () => {
   const whitelist = Object.keys(githubWL)
-  const idSubmissions = await github.getIdSubmissions(384)
-  const idSubmissions2 = await github.getIdSubmissions(724)
-  const allSubmissions = [...idSubmissions, ...idSubmissions2];
+  const allSubmissions = await github.getIdSubmissions({
+    issueIds: [384, 724],
+    gistIds: ['64763b68ab4479aa46429c194d476b82'],
+  })
   const [unique, dupes] = dedupeByProperty(allSubmissions, 'userId')
   const invalidSubmissions = []
   const ineligibleUsers = []
@@ -62,7 +60,7 @@ const githubCommand = async () => {
 const commands = {
   autoGithub: async () => {
     setInterval(() => {
-      githubCommand();
+      githubCommand()
     }, 600000)
   },
   github: githubCommand,
@@ -73,7 +71,8 @@ const commands = {
     const invalidSubmissions = []
     const ineligibleUsers = []
     const uniqueWithNames = unique.map((submission) => ({
-      user: discordWL.find((user) => user.userID === submission.userId)?.user || '',
+      user:
+        discordWL.find((user) => user.userID === submission.userId)?.user || '',
       ...submission,
     }))
     const eligible = uniqueWithNames

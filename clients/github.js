@@ -1,7 +1,76 @@
 const { Octokit } = require('octokit')
 const { getPublicId } = require('../util')
+const githubWL = require('../whitelist/github.json')
+const fs = require('fs')
 
 const client = new Octokit({ auth: process.env.GITHUB_PERSONAL_ACCESS_TOKEN })
+
+const whitelist = Object.keys(githubWL)
+
+const getIssueSubmissions = async (issueId) => {
+  let allComments = []
+  const commentsIterator = client.paginate.iterator(
+    client.rest.issues.listComments,
+    {
+      issue_number: issueId,
+      owner: 'element-fi',
+      repo: 'elf-council-frontend',
+      per_page: 100,
+    }
+  )
+  for await (const { data: comments } of commentsIterator) {
+    allComments = [
+      ...allComments,
+      ...comments.map((comment) => {
+        const validPublicId = getPublicId(comment.body)
+        return {
+          user: comment.user.login,
+          userId: comment.user.id,
+          userUrl: comment.user.html_url,
+          [validPublicId ? 'publicId' : 'invalidSubmission']:
+            validPublicId || comment.body,
+          submissionUrl: comment.html_url,
+          commentId: comment.id,
+        }
+      }),
+    ]
+  }
+  return allComments
+}
+
+const getGistSubmissions = async (gistId) => {
+  let allGists = []
+  const gistsIterator = client.paginate.iterator(client.rest.gists.listForks, {
+    gist_id: gistId,
+    per_page: 100,
+  })
+  for await (const { data: gistPreviews } of gistsIterator) {
+    allGists = [
+      ...allGists,
+      ...gistPreviews
+        // each gist has to be fetched individually to get the raw content, so
+        // we filter by eligible here to reduce the number of requests.
+        .filter((gistPreview) => whitelist.includes(gistPreview.owner.login))
+        .map(async (gistPreview) => {
+          const { data: gist } = await client.rest.gists.get({
+            gist_id: gistPreview.id,
+          })
+          const content = Object.values(gist.files)[0].content
+          const validPublicId = getPublicId(content)
+          return {
+            user: gist.owner.login,
+            userId: gist.owner.id,
+            userUrl: gist.owner.html_url,
+            [validPublicId ? 'publicId' : 'invalidSubmission']:
+              validPublicId || content,
+            submissionUrl: gist.html_url,
+            commentId: gist.id,
+          }
+        }),
+    ]
+  }
+  return await Promise.all(allGists)
+}
 
 const getContributors = async (repos) => {
   let contributors = {}
@@ -38,35 +107,22 @@ const getContributors = async (repos) => {
 }
 
 module.exports = {
-  getIdSubmissions: async (issueId) => {
-    let allComments = []
-    const commentsIterator = client.paginate.iterator(
-      client.rest.issues.listComments,
-      {
-        issue_number: issueId,
-        owner: 'element-fi',
-        repo: 'elf-council-frontend',
-        per_page: 100,
+  getIdSubmissions: async ({ issueIds, gistIds }) => {
+    let allSubmissions = []
+    if (issueIds.length) {
+      for (let i = 0; i < issueIds.length; i++) {
+        allSubmissions = [...allSubmissions, ...await getIssueSubmissions(issueIds[i])]
       }
-    )
-    for await (const { data: comments } of commentsIterator) {
-      allComments = [
-        ...allComments,
-        ...comments.map((comment) => {
-          const validPublicId = getPublicId(comment.body)
-          return {
-            user: comment.user.login,
-            userId: comment.user.id,
-            userUrl: comment.user.html_url,
-            [validPublicId ? 'publicId' : 'invalidSubmission']:
-              validPublicId || comment.body,
-            submissionUrl: comment.html_url,
-            commentId: comment.id,
-          }
-        }),
-      ]
     }
-    return allComments
+    if (gistIds.length) {
+      for (let i = 0; i < gistIds.length; i++) {
+        allSubmissions = [
+          ...allSubmissions,
+          ...(await getGistSubmissions(gistIds[i])),
+        ]
+      }
+    }
+    return allSubmissions
   },
   getContributors,
   clearIneligibleSubmissions: async (submissions) => {
