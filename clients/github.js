@@ -30,7 +30,6 @@ const getIssueSubmissions = async (issueId) => {
           [validPublicId ? 'publicId' : 'invalidSubmission']:
             validPublicId || comment.body,
           submissionUrl: comment.html_url,
-          commentId: comment.id,
         }
       }),
     ]
@@ -64,7 +63,6 @@ const getGistSubmissions = async (gistId) => {
             [validPublicId ? 'publicId' : 'invalidSubmission']:
               validPublicId || content,
             submissionUrl: gist.html_url,
-            commentId: gist.id,
           }
         }),
     ]

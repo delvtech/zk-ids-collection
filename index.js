@@ -5,6 +5,7 @@ const github = require('./clients/github')
 const discord = require('./clients/discord')
 const githubWLFile = require('./whitelist/github.json')
 const githubRepoWL = require('./whitelist/github_repos.json')
+const githubManuallyCollected = require('./manually_collected.json')
 const discordWLFile = require('./whitelist/discord.json')
 const { writeJSONFile, dedupeByProperty, writeCSVFile } = require('./util')
 
@@ -33,6 +34,7 @@ const commands = {
         issueIds: [384, 724],
         gistIds: ['64763b68ab4479aa46429c194d476b82'],
       })),
+      ...githubManuallyCollected,
       ...deletedEligible,
     ]
     const [unique, dupes] = dedupeByProperty(allSubmissions, 'userId')
