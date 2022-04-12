@@ -8,24 +8,6 @@ const deletedGitHubSubmissions = require('./extra/json/deleted_submissions.json'
 const discordWLFile = require('./whitelist/discord.json')
 const { writeJSONFile, dedupeByProperty, writeCSVFile } = require('./util')
 
-// remap existing results to claimAmounts
-// const discordEligible = require('./extra/json/discord_eligible.json')
-// const discordWithClaimAmount = discordEligible.map((submission) => ({
-//   ...submission,
-//   claimAmount: discordWLFile.find((user) => user.userID === submission.userId)
-//     ?.tokens,
-// }))
-// writeJSONFile('./extra/json/discord_eligible.json', discordWithClaimAmount)
-// writeCSVFile('./extra/csv/discord_eligible.csv', discordWithClaimAmount)
-
-// const githubEligible = require('./extra/json/github_eligible.json')
-// const githubWithClaimAmount = githubEligible.map((submission) => ({
-//   ...submission,
-//   claimAmount: githubWLFile[submission.user],
-// }))
-// writeJSONFile('./extra/json/github_eligible.json', githubWithClaimAmount)
-// writeCSVFile('./extra/csv/github_eligible.csv', githubWithClaimAmount)
-
 const commands = {
   github: async () => {
     const whitelist = Object.keys(githubWLFile)
@@ -155,6 +137,25 @@ const commands = {
   githubContributors: async () => {
     const contributors = await github.getContributors(githubRepoWL)
     writeJSONFile('whitelist/github_contributors.json', contributors)
+  },
+  updateClaimAmounts: () => {
+    const discordEligible = require('./extra/json/discord_eligible.json')
+    const discordWithClaimAmount = discordEligible.map((submission) => ({
+      ...submission,
+      claimAmount: discordWLFile.find(
+        (user) => user.userID === submission.userId
+      )?.tokens,
+    }))
+    writeJSONFile('./extra/json/discord_eligible.json', discordWithClaimAmount)
+    writeCSVFile('./extra/csv/discord_eligible.csv', discordWithClaimAmount)
+
+    const githubEligible = require('./extra/json/github_eligible.json')
+    const githubWithClaimAmount = githubEligible.map((submission) => ({
+      ...submission,
+      claimAmount: githubWLFile[submission.user],
+    }))
+    writeJSONFile('./extra/json/github_eligible.json', githubWithClaimAmount)
+    writeCSVFile('./extra/csv/github_eligible.csv', githubWithClaimAmount)
   },
 }
 
