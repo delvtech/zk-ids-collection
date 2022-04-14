@@ -4,28 +4,28 @@ const discord = require('./clients/discord')
 const githubWLFile = require('./whitelist/github.json')
 const githubRepoWL = require('./whitelist/github_repos.json')
 const githubManuallyCollected = require('./manually_collected.json')
-const deletedGitHubSubmissions = require('./extra/json/deleted_submissions.json')
+const previousIneligibleGithubSubmissions = require('./extra/json/github_ineligible.json')
 const discordWLFile = require('./whitelist/discord.json')
 const { writeJSONFile, dedupeByProperty, writeCSVFile } = require('./util')
 
 const commands = {
   github: async () => {
     const whitelist = Object.keys(githubWLFile)
-    const allSubmissions = [
-      ...(await github.getIdSubmissions({
+    const allSubmissions = (
+      await github.getIdSubmissions({
         issueIds: [384, 724],
         gistIds: ['64763b68ab4479aa46429c194d476b82'],
-      })),
-      ...githubManuallyCollected,
-      ...deletedGitHubSubmissions,
-    ]
-    const [unique, dupes] = dedupeByProperty(allSubmissions, 'userId')
-    const invalidSubmissions = []
-    const ineligibleUsers = []
+      })
+    )
+      .concat(githubManuallyCollected)
+      .concat(previousIneligibleGithubSubmissions)
+    const [unique] = dedupeByProperty(allSubmissions, 'userId')
+    const invalid = []
+    const ineligible = []
     const eligible = unique
       .filter((submission) => {
         if (submission.invalidSubmission) {
-          invalidSubmissions.push({
+          invalid.push({
             isEligible: whitelist.includes(submission.user),
             ...submission,
           })
@@ -36,7 +36,7 @@ const commands = {
       .filter((submission) => {
         const isEligible = whitelist.includes(submission.user)
         if (!isEligible) {
-          ineligibleUsers.push(submission)
+          ineligible.push(submission)
         }
         return isEligible
       })
@@ -48,34 +48,38 @@ const commands = {
     const missingEligible = whitelist
       .filter((user) => !idSubmissionUsers.includes(user))
       .map((user) => ({ user }))
+    const deleted = await github.removeSubmissions(ineligible)
+    const [ineligibleMarkedDeleted] = dedupeByProperty(
+      ineligible.concat(deleted),
+      'submissionUrl'
+    )
 
     // CSVs
-    writeCSVFile('extra/csv/github_invalid.csv', invalidSubmissions)
-    writeCSVFile('extra/csv/github_ineligible.csv', ineligibleUsers)
+    writeCSVFile('extra/csv/github_invalid.csv', invalid)
+    writeCSVFile('extra/csv/github_ineligible.csv', ineligibleMarkedDeleted)
     writeCSVFile('extra/csv/github_eligible_missing.csv', missingEligible)
     writeCSVFile('extra/csv/github_eligible.csv', eligible)
 
     // JSONs
-    writeJSONFile('extra/json/github_dupes.json', dupes)
-    writeJSONFile('extra/json/github_invalid.json', invalidSubmissions)
-    writeJSONFile('extra/json/github_ineligible.json', ineligibleUsers)
+    writeJSONFile('extra/json/github_invalid.json', invalid)
+    writeJSONFile('extra/json/github_ineligible.json', ineligibleMarkedDeleted)
     writeJSONFile('extra/json/github_eligible_missing.json', missingEligible)
     writeJSONFile('extra/json/github_eligible.json', eligible)
 
     // results
     writeCSVFile('results/csv/github.csv', unique)
     writeJSONFile('results/json/github.json', unique)
-    // github.clearIneligibleSubmissions(ineligibleUsers)
+
     console.log(
-      `Collected ${allSubmissions.length} submissions from GitHub, filtered down to ${unique.length} unique users, and found ${eligible.length} eligible. Unique submissions in the results directory.`
+      `Collected ${allSubmissions.length} submissions from GitHub, filtered down to ${unique.length} unique users, and found ${eligible.length} eligible. Unique submissions saved in the results directory.`
     )
   },
   discord: async () => {
     const whitelist = discordWLFile.map((user) => user.userID)
     const idSubmissions = await discord.getIdSubmissions()
-    const [unique, dupes] = dedupeByProperty(idSubmissions, 'userId')
-    const invalidSubmissions = []
-    const ineligibleUsers = []
+    const [unique] = dedupeByProperty(idSubmissions, 'userId')
+    const invalid = []
+    const ineligible = []
     const uniqueWithNames = unique.map((submission) => ({
       user:
         discordWLFile.find((user) => user.userID === submission.userId)?.user ||
@@ -85,7 +89,7 @@ const commands = {
     const eligible = uniqueWithNames
       .filter((submission) => {
         if (submission.invalidSubmission) {
-          invalidSubmissions.push({
+          invalid.push({
             isEligible: whitelist.includes(submission.userId),
             ...submission,
           })
@@ -96,7 +100,7 @@ const commands = {
       .filter((submission) => {
         const isEligible = whitelist.includes(submission.userId)
         if (!isEligible) {
-          ineligibleUsers.push(submission)
+          ineligible.push(submission)
         }
         return isEligible
       })
@@ -115,15 +119,14 @@ const commands = {
       }))
 
     // CSVs
-    writeCSVFile('extra/csv/discord_invalid.csv', invalidSubmissions)
-    writeCSVFile('extra/csv/discord_ineligible.csv', ineligibleUsers)
+    writeCSVFile('extra/csv/discord_invalid.csv', invalid)
+    writeCSVFile('extra/csv/discord_ineligible.csv', ineligible)
     writeCSVFile('extra/csv/discord_eligible_missing.csv', missingEligible)
     writeCSVFile('extra/csv/discord_eligible.csv', eligible)
 
     // JSONs
-    writeJSONFile('extra/json/discord_dupes.json', dupes)
-    writeJSONFile('extra/json/discord_invalid.json', invalidSubmissions)
-    writeJSONFile('extra/json/discord_ineligible.json', ineligibleUsers)
+    writeJSONFile('extra/json/discord_invalid.json', invalid)
+    writeJSONFile('extra/json/discord_ineligible.json', ineligible)
     writeJSONFile('extra/json/discord_eligible_missing.json', missingEligible)
     writeJSONFile('extra/json/discord_eligible.json', eligible)
 
@@ -157,6 +160,7 @@ const commands = {
     writeJSONFile('./extra/json/github_eligible.json', githubWithClaimAmount)
     writeCSVFile('./extra/csv/github_eligible.csv', githubWithClaimAmount)
   },
+  test: github.getStrayIssueSubmissions,
 }
 
 process.argv.slice(2).map((command) => commands[command]())

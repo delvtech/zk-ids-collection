@@ -7,7 +7,7 @@ const client = new Octokit({ auth: process.env.GITHUB_PERSONAL_ACCESS_TOKEN })
 const whitelist = Object.keys(githubWL)
 
 const getIssueSubmissions = async (issueId) => {
-  let allComments = []
+  let submissions = []
   const commentsIterator = client.paginate.iterator(
     client.rest.issues.listComments,
     {
@@ -18,9 +18,8 @@ const getIssueSubmissions = async (issueId) => {
     }
   )
   for await (const { data: comments } of commentsIterator) {
-    allComments = [
-      ...allComments,
-      ...comments.map((comment) => {
+    submissions = submissions.concat(
+      comments.map((comment) => {
         const validPublicId = getPublicId(comment.body)
         return {
           user: comment.user.login,
@@ -29,23 +28,23 @@ const getIssueSubmissions = async (issueId) => {
           [validPublicId ? 'publicId' : 'invalidSubmission']:
             validPublicId || comment.body,
           submissionUrl: comment.html_url,
+          submittedAt: comment.created_at,
         }
-      }),
-    ]
+      })
+    )
   }
-  return allComments
+  return submissions
 }
 
 const getGistSubmissions = async (gistId) => {
-  let allGists = []
+  let submissions = []
   const gistsIterator = client.paginate.iterator(client.rest.gists.listForks, {
     gist_id: gistId,
     per_page: 100,
   })
   for await (const { data: gistPreviews } of gistsIterator) {
-    allGists = [
-      ...allGists,
-      ...gistPreviews
+    submissions = submissions.concat(
+      gistPreviews
         // each gist has to be fetched individually to get the raw content, so
         // we filter by eligible here to reduce the number of requests.
         .filter((gistPreview) => whitelist.includes(gistPreview.owner.login))
@@ -62,11 +61,42 @@ const getGistSubmissions = async (gistId) => {
             [validPublicId ? 'publicId' : 'invalidSubmission']:
               validPublicId || content,
             submissionUrl: gist.html_url,
+            submittedAt: gist.created_at,
           }
-        }),
-    ]
+        })
+    )
   }
-  return await Promise.all(allGists)
+  return await Promise.all(submissions)
+}
+
+const getStrayIssueSubmissions = async () => {
+  let submissions = []
+  const commentsIterator = client.paginate.iterator(
+    client.rest.issues.listForRepo,
+    {
+      owner: 'element-fi',
+      repo: 'elf-council-frontend',
+      state: 'open',
+      per_page: 100,
+    }
+  )
+  for await (const { data: issues } of commentsIterator) {
+    for (const issue of issues) {
+      const publicIdInTitle = getPublicId(issue.title)
+      const publicIdInBody = getPublicId(issue.body)
+      if (publicIdInTitle || publicIdInBody) {
+        submissions.push({
+          user: issue.user.login,
+          userId: issue.user.id,
+          userUrl: issue.user.html_url,
+          publicId: publicIdInTitle || publicIdInBody,
+          submissionUrl: issue.html_url,
+          submittedAt: issue.created_at,
+        })
+      }
+    }
+  }
+  return submissions
 }
 
 const getContributors = async (repos) => {
@@ -104,30 +134,60 @@ const getContributors = async (repos) => {
 }
 
 module.exports = {
+  getStrayIssueSubmissions,
   getIdSubmissions: async ({ issueIds, gistIds }) => {
     let allSubmissions = []
     for (const issueId of issueIds) {
-      allSubmissions = [
-        ...allSubmissions,
-        ...(await getIssueSubmissions(issueId)),
-      ]
+      allSubmissions = allSubmissions.concat(await getIssueSubmissions(issueId))
     }
     for (const gistId of gistIds) {
-      allSubmissions = [
-        ...allSubmissions,
-        ...(await getGistSubmissions(gistId)),
-      ]
+      allSubmissions = allSubmissions.concat(await getGistSubmissions(gistId))
     }
-    return allSubmissions
+
+    return allSubmissions.concat(await getStrayIssueSubmissions())
   },
   getContributors,
-  clearIneligibleSubmissions: async (submissions) => {
-    submissions.forEach((sub) => {
-      client.rest.issues.deleteComment({
-        owner: 'element-fi',
-        repo: 'elf-council-frontend',
-        comment_id: sub.commentId,
-      })
-    })
+  removeSubmissions: async (submissions) => {
+    const deleted = []
+    const notYetDeleted = submissions.filter((sub) => !sub.deleted)
+    for (const sub of notYetDeleted) {
+      const issueId = sub.submissionUrl.match(/\/issues\/([\d]+)$/)?.[1]
+      const commentId = sub.submissionUrl.match(/#issuecomment-([\w\d]+)$/)?.[1]
+      if (issueId) {
+        try {
+          await client.rest.issues.update({
+            owner: 'element-fi',
+            repo: 'elf-council-frontend',
+            issue_number: issueId,
+            state: 'closed',
+          })
+          deleted.push(sub)
+        } catch {
+          console.log(err)
+          if (err.status === 403) {
+            break
+          }
+        }
+      } else if (commentId) {
+        try {
+          await client.rest.issues.deleteComment({
+            owner: 'element-fi',
+            repo: 'elf-council-frontend',
+            comment_id: commentId,
+          })
+          deleted.push(sub)
+        } catch (err) {
+          if (err.status === 404) {
+            deleted.push(sub)
+          } else {
+            console.log(err)
+          }
+          if (err.status === 403) {
+            break
+          }
+        }
+      }
+    }
+    return deleted.map((sub) => ({ ...sub, deleted: true }))
   },
 }

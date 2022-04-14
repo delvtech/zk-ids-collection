@@ -16,6 +16,7 @@ const parseMsg = (msg) => {
     [validPublicId ? 'publicId' : 'invalidSubmission']:
       validPublicId || publicId,
     submissionUrl: `https://discord.com/channels/${msg.guildId}/${msg.channelId}/${msg.id}`,
+    submittedAt: msg.createdAt,
   }
 }
 
@@ -35,7 +36,7 @@ module.exports = {
           await channel.messages
             .fetch({ limit: 100, before: cursor })
             .then((messages) => {
-              allMessages = [...allMessages, ...messages.map(parseMsg)]
+              allMessages = allMessages.concat(messages.map(parseMsg))
               cursor = messages.at(messages.size - 1)?.id
             })
         }
