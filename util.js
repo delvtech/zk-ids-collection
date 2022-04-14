@@ -14,7 +14,7 @@ module.exports = {
     })
     return [Object.values(byUniqueProperty), dupes]
   },
-  getPublicId: (s) => s.match(/0x.{64}/)?.[0],
+  getPublicId: (s) => s?.match(/0x.{64}/)?.[0],
   writeJSONFile: (path, data) => {
     if (!data || !data.length) {
       return null
