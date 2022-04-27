@@ -8,6 +8,9 @@ const previousIneligibleGithubSubmissions = require('./extra/json/github_ineligi
 const discordWLFile = require('./whitelist/discord.json')
 const { writeJSONFile, dedupeByProperty, writeCSVFile } = require('./util')
 
+// The time of the last pull for each batch
+// const batchCutoffs = [new Date('2022-04-11T23:00:11.440Z')]
+
 const commands = {
   github: async () => {
     const whitelist = Object.keys(githubWLFile)
@@ -20,25 +23,20 @@ const commands = {
       .concat(githubManuallyCollected)
       .concat(previousIneligibleGithubSubmissions)
     const [unique] = dedupeByProperty(allSubmissions, 'userId')
-    const invalid = []
     const ineligible = []
+    const invalidEligible = []
     const eligible = unique
-      .filter((submission) => {
-        if (submission.invalidSubmission) {
-          invalid.push({
-            isEligible: whitelist.includes(submission.user),
-            ...submission,
-          })
-          return false
-        }
-        return true
-      })
       .filter((submission) => {
         const isEligible = whitelist.includes(submission.user)
         if (!isEligible) {
           ineligible.push(submission)
+          return false
         }
-        return isEligible
+        if (submission.invalidSubmission) {
+          invalidEligible.push(submission)
+          return false
+        }
+        return true
       })
       .map((submission) => ({
         ...submission,
@@ -55,13 +53,13 @@ const commands = {
     )
 
     // CSVs
-    writeCSVFile('extra/csv/github_invalid.csv', invalid)
+    writeCSVFile('extra/csv/github_eligible_invalid.csv', invalidEligible)
     writeCSVFile('extra/csv/github_ineligible.csv', ineligibleMarkedDeleted)
     writeCSVFile('extra/csv/github_eligible_missing.csv', missingEligible)
     writeCSVFile('extra/csv/github_eligible.csv', eligible)
 
     // JSONs
-    writeJSONFile('extra/json/github_invalid.json', invalid)
+    writeJSONFile('extra/json/github_eligible_invalid.json', invalidEligible)
     writeJSONFile('extra/json/github_ineligible.json', ineligibleMarkedDeleted)
     writeJSONFile('extra/json/github_eligible_missing.json', missingEligible)
     writeJSONFile('extra/json/github_eligible.json', eligible)
@@ -78,7 +76,7 @@ const commands = {
     const whitelist = discordWLFile.map((user) => user.userID)
     const idSubmissions = await discord.getIdSubmissions()
     const [unique] = dedupeByProperty(idSubmissions, 'userId')
-    const invalid = []
+    const invalidEligible = []
     const ineligible = []
     const uniqueWithNames = unique.map((submission) => ({
       user:
@@ -88,21 +86,16 @@ const commands = {
     }))
     const eligible = uniqueWithNames
       .filter((submission) => {
-        if (submission.invalidSubmission) {
-          invalid.push({
-            isEligible: whitelist.includes(submission.userId),
-            ...submission,
-          })
-          return false
-        }
-        return true
-      })
-      .filter((submission) => {
         const isEligible = whitelist.includes(submission.userId)
         if (!isEligible) {
           ineligible.push(submission)
+          return false
         }
-        return isEligible
+        if (submission.invalidSubmission) {
+          invalidEligible.push(submission)
+          return false
+        }
+        return true
       })
       .map((submission) => ({
         ...submission,
@@ -119,13 +112,13 @@ const commands = {
       }))
 
     // CSVs
-    writeCSVFile('extra/csv/discord_invalid.csv', invalid)
+    writeCSVFile('extra/csv/discord_eligible_invalid.csv', invalidEligible)
     writeCSVFile('extra/csv/discord_ineligible.csv', ineligible)
     writeCSVFile('extra/csv/discord_eligible_missing.csv', missingEligible)
     writeCSVFile('extra/csv/discord_eligible.csv', eligible)
 
     // JSONs
-    writeJSONFile('extra/json/discord_invalid.json', invalid)
+    writeJSONFile('extra/json/discord_eligible_invalid.json', invalidEligible)
     writeJSONFile('extra/json/discord_ineligible.json', ineligible)
     writeJSONFile('extra/json/discord_eligible_missing.json', missingEligible)
     writeJSONFile('extra/json/discord_eligible.json', eligible)
