@@ -1,6 +1,20 @@
 [
   {
     "user": "",
+    "userId": "622820555950784532",
+    "publicId": "0x2d88049898a61ea4eea0780d6354418e4181242007b0dc17479d58a863ae6f16",
+    "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/969239602281984010",
+    "submittedAt": "2022-04-28T14:12:08.785Z"
+  },
+  {
+    "user": "",
+    "userId": "898725132925804634",
+    "publicId": "0x2082a43844cc5e7f86c0a45f59ec30c37732f140ed71c22ab711828d53fa8516",
+    "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/969018729402880010",
+    "submittedAt": "2022-04-27T23:34:28.587Z"
+  },
+  {
+    "user": "",
     "userId": "755057147213119498",
     "publicId": "0x2a8217032905025d2427e8cf902fd3cf228b670296ca4670c593cf6f8aa89ece",
     "submissionUrl": "https://discord.com/channels/754739461707006013/938531467716337714/965717897437663252",

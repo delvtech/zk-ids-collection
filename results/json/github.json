@@ -1935,6 +1935,14 @@
     "submittedAt": "2022-04-08T08:24:49Z"
   },
   {
+    "user": "ryangoree",
+    "userId": 3289505,
+    "userUrl": "https://github.com/ryangoree",
+    "invalidSubmission": "The submission process has moved: https://gist.github.com/jrhea/64763b68ab4479aa46429c194d476b82",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1111312626",
+    "submittedAt": "2022-04-27T17:55:50Z"
+  },
+  {
     "user": "fernandomg",
     "userId": 3315606,
     "userUrl": "https://github.com/fernandomg",
@@ -2763,8 +2771,8 @@
     "userId": 5959481,
     "userUrl": "https://github.com/rjl493456442",
     "publicId": "0x2eaae106975b5fd5717ac8b50baa34404b9699e2a3a9dcdeeb931965c3a36711",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1092472588",
-    "submittedAt": "2022-04-08T06:05:47Z"
+    "submissionUrl": "https://gist.github.com/ecdabd343e5905968a469b691302c4f9",
+    "submittedAt": "2022-04-28T01:18:36Z"
   },
   {
     "user": "fiiiu",
@@ -3058,9 +3066,9 @@
     "user": "vcshih",
     "userId": 7054770,
     "userUrl": "https://github.com/vcshih",
-    "publicId": "0x05418e374394d8d42986ec9f04bdf844c33a89586ef5934017ac30669d33ff1a",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1093077032",
-    "submittedAt": "2022-04-08T16:42:27Z"
+    "publicId": "0x18d273b425bd1a376ac6863da50820e8a7915311f6e27d2c6066079810fbf9cb",
+    "submissionUrl": "https://gist.github.com/1b8541992d3acecc97db5888a838d6e1",
+    "submittedAt": "2022-04-27T23:05:26Z"
   },
   {
     "user": "hrharder",
@@ -3723,8 +3731,8 @@
     "userId": 10740043,
     "userUrl": "https://github.com/izayl",
     "publicId": "0x2d27cb0f653bbdada3538d6d487400567e9ba75f1798fd5946130e93705050f0",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1090206848",
-    "submittedAt": "2022-04-06T12:24:06Z"
+    "submissionUrl": "https://gist.github.com/ef27c473f81bd09f20619d6c34e619b1",
+    "submittedAt": "2022-04-28T01:58:10Z"
   },
   {
     "user": "jeremyHD",
@@ -5098,6 +5106,14 @@
     "deleted": true
   },
   {
+    "user": "zemse",
+    "userId": 22412996,
+    "userUrl": "https://github.com/zemse",
+    "publicId": "0x044067200be83613231a00ffb392a0a18614b8875144d1c47e694cdacd18256e",
+    "submissionUrl": "https://gist.github.com/81773335906e950e8a1309f3aa0ac6dd",
+    "submittedAt": "2022-04-28T13:55:28Z"
+  },
+  {
     "user": "Wondertan",
     "userId": 22449364,
     "userUrl": "https://github.com/Wondertan",
@@ -5938,6 +5954,14 @@
     "publicId": "0x2c2cb0805d27d12b483a9e91346cb96ab26f5af09dd77a022f870b0679b70cd7",
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1094209879",
     "deleted": true
+  },
+  {
+    "user": "ericglau",
+    "userId": 29640130,
+    "userUrl": "https://github.com/ericglau",
+    "publicId": "0x109bcee7249c43cbbfd118d3627bb679862b90149a7fd6549105971375ab1e18",
+    "submissionUrl": "https://gist.github.com/00bbab0568553e585573ff4c1176576f",
+    "submittedAt": "2022-04-27T18:54:32Z"
   },
   {
     "user": "nedodn",
@@ -29850,6 +29874,14 @@
     "publicId": "0x1006dd436e6601288d96c8ac2d1189e8b3025678aec8fbd7088ad8ee6f3a71b0",
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1093587330",
     "deleted": true
+  },
+  {
+    "user": "Tasmiaiqbal",
+    "userId": 96154179,
+    "userUrl": "https://github.com/Tasmiaiqbal",
+    "invalidSubmission": "0xC2b2b98210014cEf41f88D97083a794e1e08CB8E\n\nOn Wed, 27 Apr 2022, 11:58 pm Ryan Goree, ***@***.***> wrote:\n\n> Closed #384\n> <https://github.com/element-fi/elf-council-frontend/issues/384>.\n>\n> —\n> Reply to this email directly, view it on GitHub\n> <https://github.com/element-fi/elf-council-frontend/issues/384#event-6509108269>,\n> or unsubscribe\n> <https://github.com/notifications/unsubscribe-auth/AW5TEQ2TWLTM2SGDYRKDLG3VHF55LANCNFSM5M5J5OAA>\n> .\n> You are receiving this because you are subscribed to this thread.Message\n> ID: <element-fi/elf-council-frontend/issue/384/issue_event/6509108269@\n> github.com>\n>\n",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1111744442",
+    "submittedAt": "2022-04-28T04:53:31Z"
   },
   {
     "user": "DelvanEzz",

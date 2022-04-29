@@ -2523,8 +2523,8 @@
     "userId": 5959481,
     "userUrl": "https://github.com/rjl493456442",
     "publicId": "0x2eaae106975b5fd5717ac8b50baa34404b9699e2a3a9dcdeeb931965c3a36711",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1092472588",
-    "submittedAt": "2022-04-08T06:05:47Z",
+    "submissionUrl": "https://gist.github.com/ecdabd343e5905968a469b691302c4f9",
+    "submittedAt": "2022-04-28T01:18:36Z",
     "claimAmount": "613.8986657935664"
   },
   {
@@ -2747,9 +2747,9 @@
     "user": "vcshih",
     "userId": 7054770,
     "userUrl": "https://github.com/vcshih",
-    "publicId": "0x05418e374394d8d42986ec9f04bdf844c33a89586ef5934017ac30669d33ff1a",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1093077032",
-    "submittedAt": "2022-04-08T16:42:27Z",
+    "publicId": "0x18d273b425bd1a376ac6863da50820e8a7915311f6e27d2c6066079810fbf9cb",
+    "submissionUrl": "https://gist.github.com/1b8541992d3acecc97db5888a838d6e1",
+    "submittedAt": "2022-04-27T23:05:26Z",
     "claimAmount": "204.63288859785547"
   },
   {
@@ -3207,8 +3207,8 @@
     "userId": 10740043,
     "userUrl": "https://github.com/izayl",
     "publicId": "0x2d27cb0f653bbdada3538d6d487400567e9ba75f1798fd5946130e93705050f0",
-    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1090206848",
-    "submittedAt": "2022-04-06T12:24:06Z",
+    "submissionUrl": "https://gist.github.com/ef27c473f81bd09f20619d6c34e619b1",
+    "submittedAt": "2022-04-28T01:58:10Z",
     "claimAmount": "204.63288859785547"
   },
   {
@@ -3959,6 +3959,15 @@
     "claimAmount": "204.63288859785547"
   },
   {
+    "user": "zemse",
+    "userId": 22412996,
+    "userUrl": "https://github.com/zemse",
+    "publicId": "0x044067200be83613231a00ffb392a0a18614b8875144d1c47e694cdacd18256e",
+    "submissionUrl": "https://gist.github.com/81773335906e950e8a1309f3aa0ac6dd",
+    "submittedAt": "2022-04-28T13:55:28Z",
+    "claimAmount": "613.8986657935664"
+  },
+  {
     "user": "Wondertan",
     "userId": 22449364,
     "userUrl": "https://github.com/Wondertan",
@@ -4299,6 +4308,15 @@
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1092014619",
     "submittedAt": "2022-04-07T17:34:52Z",
     "claimAmount": "613.8986657935664"
+  },
+  {
+    "user": "ericglau",
+    "userId": 29640130,
+    "userUrl": "https://github.com/ericglau",
+    "publicId": "0x109bcee7249c43cbbfd118d3627bb679862b90149a7fd6549105971375ab1e18",
+    "submissionUrl": "https://gist.github.com/00bbab0568553e585573ff4c1176576f",
+    "submittedAt": "2022-04-27T18:54:32Z",
+    "claimAmount": "204.63288859785547"
   },
   {
     "user": "nedodn",

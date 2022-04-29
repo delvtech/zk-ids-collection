@@ -344,6 +344,15 @@
     "deleted": true
   },
   {
+    "user": "ryangoree",
+    "userId": 3289505,
+    "userUrl": "https://github.com/ryangoree",
+    "invalidSubmission": "The submission process has moved: https://gist.github.com/jrhea/64763b68ab4479aa46429c194d476b82",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/724#issuecomment-1111312626",
+    "submittedAt": "2022-04-27T17:55:50Z",
+    "deleted": true
+  },
+  {
     "user": "sodexx7",
     "userId": 3346442,
     "userUrl": "https://github.com/sodexx7",
@@ -24555,6 +24564,15 @@
     "userUrl": "https://github.com/pengpeng6222",
     "publicId": "0x1006dd436e6601288d96c8ac2d1189e8b3025678aec8fbd7088ad8ee6f3a71b0",
     "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1093587330",
+    "deleted": true
+  },
+  {
+    "user": "Tasmiaiqbal",
+    "userId": 96154179,
+    "userUrl": "https://github.com/Tasmiaiqbal",
+    "invalidSubmission": "0xC2b2b98210014cEf41f88D97083a794e1e08CB8E\n\nOn Wed, 27 Apr 2022, 11:58 pm Ryan Goree, ***@***.***> wrote:\n\n> Closed #384\n> <https://github.com/element-fi/elf-council-frontend/issues/384>.\n>\n> —\n> Reply to this email directly, view it on GitHub\n> <https://github.com/element-fi/elf-council-frontend/issues/384#event-6509108269>,\n> or unsubscribe\n> <https://github.com/notifications/unsubscribe-auth/AW5TEQ2TWLTM2SGDYRKDLG3VHF55LANCNFSM5M5J5OAA>\n> .\n> You are receiving this because you are subscribed to this thread.Message\n> ID: <element-fi/elf-council-frontend/issue/384/issue_event/6509108269@\n> github.com>\n>\n",
+    "submissionUrl": "https://github.com/element-fi/elf-council-frontend/issues/384#issuecomment-1111744442",
+    "submittedAt": "2022-04-28T04:53:31Z",
     "deleted": true
   },
   {
