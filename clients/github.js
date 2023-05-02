@@ -12,7 +12,7 @@ const getIssueSubmissions = async (issueId) => {
     client.rest.issues.listComments,
     {
       issue_number: issueId,
-      owner: 'element-fi',
+      owner: 'delv-tech',
       repo: 'elf-council-frontend',
       per_page: 100,
     }
@@ -74,7 +74,7 @@ const getStrayIssueSubmissions = async () => {
   const commentsIterator = client.paginate.iterator(
     client.rest.issues.listForRepo,
     {
-      owner: 'element-fi',
+      owner: 'delv-tech',
       repo: 'elf-council-frontend',
       state: 'open',
       per_page: 100,
@@ -156,7 +156,7 @@ module.exports = {
       if (issueId) {
         try {
           await client.rest.issues.update({
-            owner: 'element-fi',
+            owner: 'delv-tech',
             repo: 'elf-council-frontend',
             issue_number: issueId,
             state: 'closed',
@@ -171,7 +171,7 @@ module.exports = {
       } else if (commentId) {
         try {
           await client.rest.issues.deleteComment({
-            owner: 'element-fi',
+            owner: 'delv-tech',
             repo: 'elf-council-frontend',
             comment_id: commentId,
           })
