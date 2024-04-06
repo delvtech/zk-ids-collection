@@ -1,8 +1,8 @@
 # ZK IDs Collection
 
-This is a script to collect the ZK Public IDs posted on the [GitHub Airdrop issue](https://github.com/element-fi/elf-council-frontend/issues/384) and the [#public-ids Discord channel](https://discord.com/channels/754739461707006013/938531467716337714).
+This is a script to collect the ZK Public IDs posted on the [GitHub Airdrop issue](https://github.com/delvtech/elf-council-frontend/issues/384) and the [#public-ids Discord channel](https://discord.com/channels/754739461707006013/938531467716337714).
 
-The results are saved in the [results](https://github.com/element-fi/zk-ids-collection/blob/main/results/) folder.
+The results are saved in the [results](https://github.com/delvtech/zk-ids-collection/blob/main/results/) folder.
 
 **Last run: 2022-04-29T14:10:44.264Z:**
 
